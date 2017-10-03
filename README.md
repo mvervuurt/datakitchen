@@ -1,4 +1,4 @@
-# datakitchen
+# Data Kitchen
 Run your Data Science Project like a professional kitchen!
 
 ## Prepare and Clean Data
