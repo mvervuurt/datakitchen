@@ -460,7 +460,7 @@ the relationship between poverty rates and other features. \#\#\#
 Initial Data Exploration The dataset consists of 3198 records about
 United States' counties. Each record contains socioeconomic indicators
 about a United States' county for a given year. Besides the 'row\_id',
-'yr' and the target value 'poverty\_rate', the dataset contains 31
+'yr' and the target value 'poverty\_rate', the dataset contains 32
 features about socioeconomic indicators.
 
     \begin{Verbatim}[commandchars=\\\{\}]
@@ -843,7 +843,7 @@ quantitative:
          max       47.400000
 \end{Verbatim}
             
-    Poverty rates are right or positively skewed with skew value of
+    Poverty rates are right or positively skewed with a skew value of
 1.048357. We can recognize a slight bell curve in the data. The mean and
 median are relatively close to each other and the standard deviation is
 relatively low which indicates low variability in the poverty rates.
@@ -879,126 +879,252 @@ Most United States' counties have a poverty\_rate between 10\% and 20\%.
 {\color{outcolor}Out[{\color{outcolor}38}]:} (3198, 35)
 \end{Verbatim}
             
+    From the summary statistics above, should be clear that there are
+currently three categorical variables: - area\_\_rucc with 9 values: -
+'Nonmetro - Completely rural or less than 2,500 urban population,
+adjacent to a metro area', - 'Nonmetro - Urban population of 2,500 to
+19,999, adjacent to a metro area', - 'Nonmetro - Completely rural or
+less than 2,500 urban population, not adjacent to a metro area', -
+'Nonmetro - Urban population of 2,500 to 19,999, not adjacent to a metro
+area', - 'Metro - Counties in metro areas of 1 million population or
+more', - 'Metro - Counties in metro areas of 250,000 to 1 million
+population', - 'Nonmetro - Urban population of 20,000 or more, adjacent
+to a metro area', - 'Nonmetro - Urban population of 20,000 or more, not
+adjacent to a metro area', - 'Metro - Counties in metro areas of fewer
+than 250,000 population' - area\_\_urban\_influence with 12 values: -
+'Noncore adjacent to a large metro area', - 'Micropolitan adjacent to a
+large metro area', - 'Noncore adjacent to micro area and contains a town
+of 2,500-19,999 residents', - 'Large-in a metro area with at least 1
+million residents or more', - 'Micropolitan not adjacent to a metro
+area', - 'Noncore not adjacent to a metro/micro area and does not
+contain a town of at least 2,500 residents', - 'Noncore adjacent to a
+small metro with town of at least 2,500 residents', - 'Small-in a metro
+area with fewer than 1 million residents', - 'Noncore adjacent to micro
+area and does not contain a town of at least 2,500 residents', -
+'Noncore not adjacent to a metro/micro area and contains a town of 2,500
+or more residents', - 'Noncore adjacent to a small metro and does not
+contain a town of at least 2,500 residents', - 'Micropolitan adjacent to
+a small metro area' - econ\_\_economic\_typology with 6 values: -
+'Federal/State government-dependent' - 'Manufacturing-dependent' -
+'Nonspecialized' - 'Farm-dependent' - 'Mining-dependent' - 'Recreation'
+
     \subsubsection{Data Exploration and Visualization of Categorical
 Variables}\label{data-exploration-and-visualization-of-categorical-variables}
 
-Here we explore the prediction value of the categorical variables
+Here we explore the predictive value of the categorical variables
 'econ\_\_economic\_typology', 'area\_\_urban\_influence', 'area\_\_rucc'
 and 'yr'. We use mostly boxplots and one way analysis of variance
 (ANOVA).
 
+    Farm-dependent counties have the lowest poverty rates.
+
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}eet} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{econ\PYZus{}\PYZus{}economic\PYZus{}typology}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}55}]:} \PY{n}{bpd\PYZus{}eet} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{econ\PYZus{}\PYZus{}economic\PYZus{}typology}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{6}\PY{p}{,}\PY{l+m+mi}{6}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_20_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     There are alot more 'Nonspecialised' eets!
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{hb\PYZus{}eet} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{econ\PYZus{}\PYZus{}economic\PYZus{}typology}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}56}]:} \PY{n}{hb\PYZus{}eet} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{econ\PYZus{}\PYZus{}economic\PYZus{}typology}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_22_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}aui} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}urban\PYZus{}influence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}57}]:} \PY{n}{bpd\PYZus{}aui} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}urban\PYZus{}influence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_23_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{hb\PYZus{}rucc} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{area\PYZus{}\PYZus{}urban\PYZus{}influence}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{orientation}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{horizontal}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}58}]:} \PY{n}{hb\PYZus{}rucc} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{area\PYZus{}\PYZus{}urban\PYZus{}influence}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{orientation}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{horizontal}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_24_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}rucc} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}rucc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}59}]:} \PY{n}{bpd\PYZus{}rucc} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}rucc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_25_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{hb\PYZus{}area\PYZus{}rucc} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{area\PYZus{}\PYZus{}rucc}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{orientation}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{horizontal}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}60}]:} \PY{n}{hb\PYZus{}area\PYZus{}rucc} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{area\PYZus{}\PYZus{}rucc}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{orientation}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{horizontal}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{15}\PY{p}{,}\PY{l+m+mi}{15}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_26_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{poverty\PYZus{}floats} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{p}{:}\PY{p}{,} \PY{n}{poverty}\PY{o}{.}\PY{n}{dtypes} \PY{o}{==} \PY{n}{np}\PY{o}{.}\PY{n}{float}\PY{p}{]}
-        \PY{n}{poverty\PYZus{}floats} \PY{o}{=} \PY{n}{poverty\PYZus{}floats}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}primary\PYZus{}care\PYZus{}physician}\PY{l+s+s1}{\PYZsq{}}
-                                                      \PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}dentist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}motor\PYZus{}vehicle\PYZus{}crash\PYZus{}deaths\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}
-                                                     \PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}air\PYZus{}pollution\PYZus{}particulate\PYZus{}matter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}death\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}
-                                                     \PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}birth\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}homicides\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
-        \PY{n}{bpd\PYZus{}povfl} \PY{o}{=} \PY{n}{poverty\PYZus{}floats}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{25}\PY{p}{,}\PY{l+m+mi}{25}\PY{p}{)}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}61}]:} \PY{n}{poverty\PYZus{}floats} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{p}{:}\PY{p}{,} \PY{n}{poverty}\PY{o}{.}\PY{n}{dtypes} \PY{o}{==} \PY{n}{np}\PY{o}{.}\PY{n}{float}\PY{p}{]}
+         \PY{n}{poverty\PYZus{}floats} \PY{o}{=} \PY{n}{poverty\PYZus{}floats}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}primary\PYZus{}care\PYZus{}physician}\PY{l+s+s1}{\PYZsq{}}
+                                                       \PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}dentist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}motor\PYZus{}vehicle\PYZus{}crash\PYZus{}deaths\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}
+                                                      \PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}air\PYZus{}pollution\PYZus{}particulate\PYZus{}matter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}death\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}
+                                                      \PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}birth\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}homicides\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{bpd\PYZus{}povfl} \PY{o}{=} \PY{n}{poverty\PYZus{}floats}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{25}\PY{p}{,}\PY{l+m+mi}{25}\PY{p}{)}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_27_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}povr} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}62}]:} \PY{n}{bpd\PYZus{}povr} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_28_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}hpppcp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}primary\PYZus{}care\PYZus{}physician}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}63}]:} \PY{n}{bpd\PYZus{}hpppcp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}primary\PYZus{}care\PYZus{}physician}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_29_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}ppd} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}dentist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}64}]:} \PY{n}{bpd\PYZus{}ppd} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}pop\PYZus{}per\PYZus{}dentist}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_30_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}hmvcdp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}motor\PYZus{}vehicle\PYZus{}crash\PYZus{}deaths\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}65}]:} \PY{n}{bpd\PYZus{}hmvcdp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}motor\PYZus{}vehicle\PYZus{}crash\PYZus{}deaths\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_31_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bdp\PYZus{}happm} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}air\PYZus{}pollution\PYZus{}particulate\PYZus{}matter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}66}]:} \PY{n}{bdp\PYZus{}happm} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}air\PYZus{}pollution\PYZus{}particulate\PYZus{}matter}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_32_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}ddrp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}death\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}67}]:} \PY{n}{bpd\PYZus{}ddrp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}death\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_33_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}dbrp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}birth\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}68}]:} \PY{n}{bpd\PYZus{}dbrp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{demo\PYZus{}\PYZus{}birth\PYZus{}rate\PYZus{}per\PYZus{}1k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_34_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bdp\PYZus{}hhp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}homicides\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}69}]:} \PY{n}{bdp\PYZus{}hhp} \PY{o}{=} \PY{n}{poverty}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{health\PYZus{}\PYZus{}homicides\PYZus{}per\PYZus{}100k}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_35_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{hist\PYZus{}pov} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{35}\PY{p}{,}\PY{l+m+mi}{35}\PY{p}{)}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}70}]:} \PY{n}{hist\PYZus{}pov} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{hist}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{35}\PY{p}{,}\PY{l+m+mi}{35}\PY{p}{)}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_36_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     We will create features around age and area\_rucc.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{old\PYZus{}counties} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{demo\PYZus{}\PYZus{}pct\PYZus{}aged\PYZus{}65\PYZus{}years\PYZus{}and\PYZus{}older} \PY{o}{\PYZgt{}} \PY{l+m+mf}{0.167000}
-        \PY{n}{old\PYZus{}poor} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{old\PYZus{}counties}\PY{p}{,}\PY{p}{:}\PY{p}{]}
-        \PY{n}{bpd\PYZus{}old} \PY{o}{=} \PY{n}{old\PYZus{}poor}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}rucc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}71}]:} \PY{n}{old\PYZus{}counties} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{demo\PYZus{}\PYZus{}pct\PYZus{}aged\PYZus{}65\PYZus{}years\PYZus{}and\PYZus{}older} \PY{o}{\PYZgt{}} \PY{l+m+mf}{0.167000}
+         \PY{n}{old\PYZus{}poor} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{old\PYZus{}counties}\PY{p}{,}\PY{p}{:}\PY{p}{]}
+         \PY{n}{bpd\PYZus{}old} \PY{o}{=} \PY{n}{old\PYZus{}poor}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}rucc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_38_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{young\PYZus{}counties} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{demo\PYZus{}\PYZus{}pct\PYZus{}aged\PYZus{}65\PYZus{}years\PYZus{}and\PYZus{}older} \PY{o}{\PYZlt{}} \PY{l+m+mf}{0.167000}
-        \PY{n}{young\PYZus{}poor} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{young\PYZus{}counties}\PY{p}{,}\PY{p}{:}\PY{p}{]}
-        \PY{n}{bpd\PYZus{}young} \PY{o}{=} \PY{n}{young\PYZus{}poor}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}rucc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}72}]:} \PY{n}{young\PYZus{}counties} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{demo\PYZus{}\PYZus{}pct\PYZus{}aged\PYZus{}65\PYZus{}years\PYZus{}and\PYZus{}older} \PY{o}{\PYZlt{}} \PY{l+m+mf}{0.167000}
+         \PY{n}{young\PYZus{}poor} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{young\PYZus{}counties}\PY{p}{,}\PY{p}{:}\PY{p}{]}
+         \PY{n}{bpd\PYZus{}young} \PY{o}{=} \PY{n}{young\PYZus{}poor}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{area\PYZus{}\PYZus{}rucc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{,} \PY{n}{return\PYZus{}type}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dict}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_39_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     The difference in poverty over year 'a' and 'b' is really minimal.
 Furthermore it doesn't make sense to use this feature to predict
 poverty, if we want to create a model that generalizes over the years.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{bpd\PYZus{}yr} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}73}]:} \PY{n}{bpd\PYZus{}yr} \PY{o}{=} \PY{n}{poverty}\PY{o}{.}\PY{n}{boxplot}\PY{p}{(}\PY{n}{column}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{poverty\PYZus{}rate}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{by}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{yr}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{vert}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
 \end{Verbatim}
 
 
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_41_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
     The categorical variable 'yr' does not hold any value to differentiate
 poverty rates. We will therefore drop it at the cleaning stage.
 
