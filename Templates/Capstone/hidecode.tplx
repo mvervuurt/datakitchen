@@ -1,0 +1,53 @@
+((* block docclass *))
+\documentclass[reprint, floatfix, groupaddress, prb, longbibliography]{revtex4-1}
+
+\usepackage{placeins}
+
+\AtBeginDocument{
+\heavyrulewidth=.08em
+\lightrulewidth=.05em
+\cmidrulewidth=.03em
+\belowrulesep=.65ex
+\belowbottomsep=0pt
+\aboverulesep=.4ex
+\abovetopsep=0pt
+\cmidrulesep=\doublerulesep
+\cmidrulekern=.5em
+\defaultaddspace=.5em
+}
+
+((* endblock docclass *))
+
+% Author and Title from metadata
+((* block maketitle *))
+
+((*- if nb.metadata["latex_metadata"]: -*))
+((*- if nb.metadata["latex_metadata"]["author"]: -*))
+    \author{((( nb.metadata["latex_metadata"]["author"] )))}
+((*- endif *))
+((*- else -*))
+    \author{Julius C. F. Schulz}
+((*- endif *))
+
+((*- if nb.metadata["latex_metadata"]: -*))
+((*- if nb.metadata["latex_metadata"]["affiliation"]: -*))
+    \affiliation{((( nb.metadata["latex_metadata"]["affiliation"] )))}
+((*- endif *))
+((*- endif *))
+
+((*- if nb.metadata["latex_metadata"]: -*))
+((*- if nb.metadata["latex_metadata"]["title"]: -*))
+    \title{((( nb.metadata["latex_metadata"]["title"] )))}
+((*- endif *))
+((*- else -*))
+    \title{((( resources.metadata.name )))}
+((*- endif *))
+
+\date{\today}
+\maketitle
+((* endblock maketitle *))
+
+((*- extends 'report.tplx' -*))
+% Disable input cells
+((* block input_group *))
+((* endblock input_group *))
