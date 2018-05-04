@@ -1,0 +1,1001 @@
+id,gender,postal_code,poisson,stocks,university,country
+1,Male,49417 CEDEX,7,$106.49M,Institut National des Sciences Appliquées de Rennes,France
+2,Female,75902 CEDEX 15,5,$5.24M,Ecole Supérieure d'Electronique de l'Ouest,France
+3,Male,13456 CEDEX 13,3,$170.65M,Université de Perpignan,France
+4,Female,92024 CEDEX,7,$50.64M,Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg,France
+5,Female,90009 CEDEX,4,$259.46M,Université de La Rochelle,France
+6,Female,L-6380,3,$239.77M,University of Luxemburg,Luxembourg
+7,Female,72004 CEDEX 1,1,n/a,Ecole Nationale Supérieur d'Ingénieurs de Constructions Aéronautique,France
+8,Male,86983 CEDEX,3,$5.84B,Université de Toulouse-le-Mirail (Toulouse II),France
+9,Female,95334 CEDEX,9,$310.88M,Ecole Nationale Vétérinaire de Toulouse,France
+10,Male,92855 CEDEX,2,$61.73M,Institut des Sciences de l'Ingénieur de Montpellier,France
+11,Female,13155 CEDEX,6,$1.19B,Université Claude Bernard (Lyon I),France
+12,Male,80104 CEDEX,5,n/a,Ecole Centrale de Nantes,France
+13,Male,2604,9,$5.72B,University for Humanistics (UH),Netherlands
+14,Female,20292 CEDEX,2,n/a,American University of Paris,France
+15,Female,50109 CEDEX,3,$7.19B,Université Lumiére (Lyon II),France
+16,Male,91851 CEDEX,7,$57.51M,Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy,France
+17,Male,51039 CEDEX,6,$542.39M,Université de Technologie de Compiègne,France
+18,Male,76124 CEDEX,5,$847.46M,Institut d'Etudes Politiques de Paris (Sciences Po),France
+19,Female,77104 CEDEX,9,$601.02M,Université des Sciences et Technologies de Lille (Lille I),France
+20,Male,28114 CEDEX,8,n/a,Groupe Sup de Co Amiens Picardie,France
+21,Female,92337 CEDEX,9,$462.74M,Ecole Nationale des Travaux Publics de l'Etat,France
+22,Female,79104 CEDEX,7,$3.39B,Ecole Nationale Supérieure des Mines de Paris,France
+23,Female,44019 CEDEX 1,2,$27.02B,Institut des Sciences de l'Ingénieur de Montpellier,France
+24,Female,24118,7,$28.99M,Fachhochschule Worms,Germany
+25,Female,94657 CEDEX,1,$631.2M,Université de Bourgogne,France
+26,Female,56004 CEDEX,4,$8.61M,Ecole Nationale Supérieure de Chimie de Toulouse,France
+27,Female,30942 CEDEX 9,9,$2.67B,Ecole Nationale Supérieure de Chimie de Rennes,France
+28,Female,34536 CEDEX,5,$4.52B,Ecole Nationale des Ponts et Chausees,France
+29,Male,1209,9,$2.55B,Geneva Business School,Switzerland
+30,Female,1360,4,$1.32B,International Institute for Geo - Information Science and Earth Observation,Netherlands
+31,Female,44143,11,$384.67M,"Schiller International University, Heidelberg",Germany
+32,Female,8214,8,$375.34M,Hogeschool Rotterdam,Netherlands
+33,Male,75367 CEDEX 08,1,$94.05M,Ecole Nationale Supérieure Electricité et Mécanique,France
+34,Female,4619,3,n/a,NHTV Breda University of Professional Education,Netherlands
+35,Female,77224 CEDEX,6,$1.48B,Université Stendhal (Grenoble III),France
+36,Male,2004,7,$145.67M,Free University Amsterdam,Netherlands
+37,Male,82037 CEDEX,2,n/a,Institut National Polytechnique de Toulouse,France
+38,Male,51039 CEDEX,3,$305.47M,Ecole Nationale Supérieure des Mines d'Alès,France
+39,Female,43010 CEDEX,3,n/a,Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux,France
+40,Female,58404 CEDEX,4,$100.44M,Ecole Nationale de la Statistique et de l'Analyse de l'information,France
+41,Female,73216 CEDEX,6,$1.05B,Ecole Supérieure de Commerce de Clermont-Ferrand,France
+42,Male,33010 CEDEX,7,$3.77B,Université de Pau et des Pays de l'Adour,France
+43,Female,3224,3,$258.42M,Utrecht University,Netherlands
+44,Male,95943 CEDEX 2,5,$1.82B,Université François Rabelais de Tours,France
+45,Male,69464 CEDEX 06,7,$40.94M,Ecole Universitaire d'Ingénieurs de Lille,France
+46,Female,42349,3,$35.74B,Hochschule für Internationales Management,Germany
+47,Male,24053 CEDEX,4,$159.18M,Ecole Supérieure de Commerce de Reims,France
+48,Female,60477 CEDEX,6,n/a,Ecole Supérieure Internationale d'Administration des Entreprises,France
+49,Male,79021 CEDEX,9,$65.89M,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Grenoble,France
+50,Female,21061 CEDEX,5,$1.48B,Ecole pour les Etudes et la Recherche en Informatique et Electronique,France
+51,Female,91295 CEDEX,3,$8.05B,Université de Montpellier II,France
+52,Female,34064 CEDEX 2,4,$31.49B,Université Paris Nord (Paris XIII),France
+53,Female,90411,5,$707.33M,"Hochschule für Technik, Wirtschaft und Kultur Leipzig (FH)",Germany
+54,Male,35687,6,$180.4M,Ruhr-Universität Bochum,Germany
+55,Male,75971 CEDEX 20,5,$19.65M,Ecole Nationale Supérieure de Techniques Avancées,France
+56,Male,73379 CEDEX,3,$5.28B,Université Val-de-Marne (Paris XII),France
+57,Male,7504,6,$690.58M,Hogeschool Antwerpen,Belgium
+58,Female,69395 CEDEX 03,5,$6.37B,Ecole Nationale Supérieure de Biologie Appliquée à la Nutrition et à l'Alementation,France
+59,Male,17014 CEDEX 1,7,$1.59B,Université Sorbonne-Nouvelle (Paris III),France
+60,Male,76804 CEDEX,3,$5.84B,Ecole Centrale de Lille,France
+61,Male,94946 CEDEX 9,5,$471.11M,Université Bordeaux I,France
+62,Male,22339,8,$87.97B,Europäische Betriebswirtschafts-Akademie,Germany
+63,Male,3224,5,n/a,Delft University of Technology,Netherlands
+64,Female,8029,2,$45.23B,Dutch Delta University,Netherlands
+65,Male,06403 CEDEX,5,$2.9B,Université d'Auvergne (Clermont-Ferrand I),France
+66,Female,17209 CEDEX,5,n/a,Université Paris Sud (Paris XI),France
+67,Female,44159 CEDEX,7,$4.9M,Université de Savoie,France
+68,Male,42355 CEDEX,4,$26.56M,Université Jean Moulin (Lyon III),France
+69,Male,L-9359,7,n/a,International University Institute of Luxembourg,Luxembourg
+70,Female,77544 CEDEX,3,n/a,Ecole Nationale Supérieur de Mécaniques et des Microtechniques,France
+71,Male,34940 CEDEX 9,9,n/a,Ecole Nationale Supérieure de Physique de Marseille,France
+72,Male,95109 CEDEX,5,$11.65B,Ecole Supérieure d'Ingénieurs en Génie Electrique,France
+73,Male,42897,4,$2.61B,"Fachhochschule Schwäbisch Hall, Hochschule für Gestaltung",Germany
+74,Female,7319,8,$2.05B,Saxion Universities ,Netherlands
+75,Male,1049,3,$131.24M,Roosevelt Academy University College,Netherlands
+76,Male,92174 CEDEX,9,$149.83M,Ecole Centrale de Lille,France
+77,Female,35704 CEDEX 7,5,$480.35M,Université de Savoie,France
+78,Male,17189 CEDEX,1,$317.23M,Université de Pau et des Pays de l'Adour,France
+79,Female,8024,6,$63.62M,Hogeschool Rotterdam,Netherlands
+80,Male,8019,4,$103.85M,University of Amsterdam,Netherlands
+81,Male,41355 CEDEX,6,n/a,Université Panthéon-Sorbonne (Paris I),France
+82,Male,07209 CEDEX,6,$842.24M,Ecole Centrale d'Electronique - ECE,France
+83,Female,22004 CEDEX 1,8,$1.63B,Ecole Nationale d'Ingénieurs de Metz,France
+84,Female,07204 CEDEX,3,$3.56B,Ecole Polytechnique Marseille,France
+85,Male,79072 CEDEX 9,7,$10.13B,Institut Textile et Chimique de Lyon,France
+86,Male,80031 CEDEX 1,6,$5.21B,Ecole Supérieure d'Ingénieurs et de Techniciens pour l'Agriculture,France
+87,Female,59407 CEDEX,7,$32.63M,"Ecole Nationale Supérieure en Electrotechnique, Electronique, Informatique et Hydraulique de Toulouse",France
+88,Male,91169 CEDEX,5,$1.64B,Conservatoire National des Arts et Métiers,France
+89,Male,58004 CEDEX,3,$411.91M,Université Paris-Sorbonne (Paris IV),France
+90,Male,81028 CEDEX 9,4,$76.54M,Ecole Supérieure des Techniques Industrielles et des Textiles,France
+91,Male,6804,8,$326.61M,Tilburg University,Netherlands
+92,Female,92691 CEDEX,4,$128.18M,Institut National des Sciences Appliquées de Rouen,France
+93,Male,3004,5,n/a,Roosevelt Academy University College,Netherlands
+94,Male,11860 CEDEX 9,5,$650.54M,Université de Marne la Vallée,France
+95,Male,44804 CEDEX,6,$37.26M,Ecole Nationale des Travaux Publics de l'Etat,France
+96,Female,64039 CEDEX,3,$6.1B,Ecole Nationale Supérieure des Telecommunications de Paris,France
+97,Male,38816 CEDEX 1,4,$3.53B,Ecole Supérieure de Chimie Organique et Minérale,France
+98,Male,91194 CEDEX,7,$1.43B,Ecole Supérieure de Commerce de Lyon,France
+99,Female,30942 CEDEX 9,4,$975.82M,Ecole Supérieure des Sciences Commerciales d'Angers,France
+100,Male,6404,4,$99.43M,Christelijke Hogeschool Windesheim,Netherlands
+101,Female,L-6231,9,n/a,University of Luxemburg,Luxembourg
+102,Male,24109,3,$905.69M,Katholische Hochschule für Soziale Arbeit Saarbrücken,Germany
+103,Female,69644 CEDEX,7,$5.79B,Institut Catholique d'Arts et Métiers Lille,France
+104,Male,13347,6,n/a,Fachhochschule Niederrhein,Germany
+105,Female,77544 CEDEX,7,$320.72M,Ecole Nationale Supérieure d'Agronomie de Rennes,France
+106,Female,67928 CEDEX 9,4,$83.18M,Ecole Nationale Vétérinaire de Lyon,France
+107,Male,56274 CEDEX,4,$313.17M,Ecole Nationale Supérieure des Mines de Douai,France
+108,Male,41004 CEDEX,7,n/a,Ecole pour les Etudes et la Recherche en Informatique et Electronique,France
+109,Male,06293 CEDEX 3,5,$49.09M,Ecole Normale Supérieure de Lyon,France
+110,Male,38524 CEDEX,4,$71.22M,Université de Technologie de Troyes,France
+111,Female,22104 CEDEX,6,n/a,Ecole Nationale Vétérinaire de Toulouse,France
+112,Female,2309,1,$126.08M,Zuyd University,Netherlands
+113,Female,95032 CEDEX,3,$563.5M,Université du Littoral Cote d'Opale,France
+114,Female,75326 CEDEX 07,6,$21.61B,"Université du Sud, Toulon et Var",France
+115,Male,14804 CEDEX,6,$32.39B,Ecole Nationale Supérieure d'Ingénieurs en Mécanique et Energétique de Valenciennes,France
+116,Female,13095 CEDEX 2,8,$69.3M,"Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",France
+117,Female,75976 CEDEX 20,7,$6.89B,Université de Metz,France
+118,Female,3764,6,n/a,Islamic University of Rotterdam,Netherlands
+119,Female,L-9184,8,$685.06M,International University Institute of Luxembourg,Luxembourg
+120,Male,67454 CEDEX,8,$3.61B,Université Paul Sabatier (Toulouse III),France
+121,Female,37554 CEDEX,1,$370.68M,"British Institute in Paris, University of London",France
+122,Female,44265 CEDEX 2,5,$42.87B,Ecole Supérieure d'Ingénieurs en Génie Electrique,France
+123,Female,7536,4,$128.88M,Katholieke Universiteit Brussel,Belgium
+124,Female,1504,8,n/a,NHL University of Applied Sciences,Netherlands
+125,Male,94149 CEDEX,7,$158.07M,Institut Supérieur d'Agriculture Lille,France
+126,Female,85109 CEDEX,8,$7.24B,IDRAC (Institut de recherche en action commerciale),France
+127,Female,70004 CEDEX,9,$54.38M,Ecole Spéciale de Mécanique et d'Electricité,France
+128,Male,10004 CEDEX,4,n/a,Université Denis Diderot (Paris VII),France
+129,Male,06116 CEDEX,4,$38.81B,Grenoble Ecole de Management,France
+130,Female,75312 CEDEX 09,3,$1.21B,Ecole Nationale Supérieure des Industries Chimiques de Nancy,France
+131,Male,7609,7,$508.59M,Wageningen University,Netherlands
+132,Female,06721 CEDEX,5,$102.3M,Université François Rabelais de Tours,France
+133,Female,69339 CEDEX 02,6,$2.41B,Université d'Artois,France
+134,Male,2264,4,$220.34M,Leiden University,Netherlands
+135,Male,80804,3,$1B,Fachhochschule Bochum,Germany
+136,Male,25086 CEDEX 9,6,$7.82B,Ecole Nationale des Ponts et Chausees,France
+137,Female,92061 CEDEX,7,$9.48B,Ecole Nationale Supérieure d'Agronomie de Montpellier,France
+138,Female,94254 CEDEX,7,$276.46M,Ecole Supérieure de Commerce de Reims,France
+139,Male,77404 CEDEX,5,$5.35B,Ecole Supérieure de Chimie Organique et Minérale,France
+140,Female,50309 CEDEX,4,$175.26M,Université de Rouen - Haute Normandie,France
+141,Female,83404 CEDEX,5,$979.78M,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+142,Female,21806 CEDEX,4,$905.46M,Centre d'Etudes Supérieures des Techniques Industrielles,France
+143,Male,62411 CEDEX,7,$2.31B,Conservatoire National des Arts et Métiers,France
+144,Male,57509 CEDEX,6,$8.14B,Université Val-de-Marne (Paris XII),France
+145,Female,91104 CEDEX,2,n/a,Université de Toulouse-le-Mirail (Toulouse II),France
+146,Male,5009,7,$12.41B,Open University of the Netherlands,Netherlands
+147,Female,13937 CEDEX 20,5,$2.84B,Ecole Supérieure de Commerce de Bordeaux,France
+148,Male,60309 CEDEX,5,$38.81B,Ecole Nationale Supérieure de Chimie de Toulouse,France
+149,Male,93909 CEDEX 9,8,$23.23B,Ecole Universitaire d'Ingénieurs de Lille,France
+150,Female,L-8295,7,$183.56M,International University Institute of Luxembourg,Luxembourg
+151,Female,94726 CEDEX,7,$681.44M,Université Stendhal (Grenoble III),France
+152,Female,67975 CEDEX 9,4,$7.54B,Ecole Nationale Supérieure de Techniques Avancées,France
+153,Male,89010 CEDEX,5,$8.45B,American University of Paris,France
+154,Male,14199,5,$847.88M,"Philosophisch-Theologisches Studium Erfurt, Staatlich anerkannte Wissenschaftliche Hochschule",Germany
+155,Male,75638 CEDEX 13,4,$1.01B,Ecole Nationale Supérieure de Physique de Grenoble,France
+156,Female,35022 CEDEX 2,4,$179.38M,Université Panthéon-Sorbonne (Paris I),France
+157,Male,L-6834,4,$128.91M,International University Institute of Luxembourg,Luxembourg
+158,Female,86083 CEDEX 9,5,$1.8B,Université de Rouen - Haute Normandie,France
+159,Female,95874 CEDEX,3,n/a,Ecole Normale Supérieure de Lyon,France
+160,Male,13662 CEDEX,8,$475.98M,Université Panthéon-Sorbonne (Paris I),France
+161,Female,83484 CEDEX,6,$14.1M,Université Charles-de-Gaulle (Lille III),France
+162,Female,70004 CEDEX,3,$51.88B,Institut des Sciences de l'Ingénieur de Clermont-Ferrand,France
+163,Male,6414,6,$592.24M,Radboud University of Nijmegen,Netherlands
+164,Female,22179,7,$1.88B,Fachhochschule Münster,Germany
+165,Female,14922 CEDEX 9,3,$157.5M,Université de Pau et des Pays de l'Adour,France
+166,Female,69464 CEDEX 06,5,$320.21M,Université de Toulouse,France
+167,Male,38066 CEDEX 2,6,$26.13M,Ecole Supérieure des Sciences Commerciales d'Angers,France
+168,Female,13681 CEDEX,8,n/a,"Ecole Nationale Supérieure en Electrotechnique, Electronique, Informatique et Hydraulique de Toulouse",France
+169,Female,56274 CEDEX,4,$854.42M,ENIC Telecom Lille 1,France
+170,Male,75215 CEDEX 16,5,$243.18M,"Ecole Nationale Supérieure d'Electronique, d'Electrotechnique, d'Informatique et d'Hydraulique de Toulouse",France
+171,Male,70374,3,$2.84B,"International School of New Media, University of Lübeck",Germany
+172,Female,5349,7,$49.63B,De Haagse Hogeschool,Netherlands
+173,Female,69794 CEDEX,2,n/a,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Bordeaux,France
+174,Male,03006 CEDEX,8,$1.6B,Ecole Nationale des Travaux Publics de l'Etat,France
+175,Female,L-6693,4,$814.95M,University of Luxemburg,Luxembourg
+176,Female,71332 CEDEX,6,n/a,Institut d'Etudes Politiques de Paris (Sciences Po),France
+177,Female,21051 CEDEX,4,$927.6M,Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique,France
+178,Male,44307 CEDEX 3,3,$737.25M,Ecole Nationale de l'Aviation Civile,France
+179,Female,59463 CEDEX,4,$35.76B,Institut Supérieur d'Agriculture Rhone-Alpes,France
+180,Male,94525 CEDEX 1,4,$445.1M,Ecole Nationale d'Administration,France
+181,Male,93883 CEDEX,4,$123.88B,Ecole Nationale Supérieure des Telecommunications de Paris,France
+182,Female,22204 CEDEX,5,$236.5M,Ecole Nationale Supérieure de Chimie de Lille,France
+183,Male,L-9780,3,$939.02M,International University Institute of Luxembourg,Luxembourg
+184,Male,54939 CEDEX 9,8,$3.79B,Ecole Nationale Supérieure de Biologie Appliquée à la Nutrition et à l'Alementation,France
+185,Male,67137 CEDEX,10,$6.71B,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Grenoble,France
+186,Male,92645 CEDEX,3,$9.15B,Ecole Nationale d'Ingénieurs de Saint-Etienne,France
+187,Male,38106,4,$6.28B,"Fachhochschule Kempten, Hochschule für Technik und Wirtschaft",Germany
+188,Female,94525 CEDEX 1,4,$1.97B,Ecole des Hautes Etudes Industrielles de Lille,France
+189,Female,2029,5,$772.29M,UNESCO-IHE Institute for Water Education,Netherlands
+190,Male,38030 CEDEX 2,8,$13.85B,Ecole Européen des Affaires,France
+191,Female,78093 CEDEX 9,5,$121.38M,Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux,France
+192,Female,78165 CEDEX,6,n/a,European Management Center Paris,France
+193,Male,42055 CEDEX 2,10,$1.87B,Université du Littoral Cote d'Opale,France
+194,Male,56019 CEDEX,4,$1.5B,Ecole Supérieure de Commerce de Lille,France
+195,Male,20292 CEDEX,2,$2.85B,Ecole Centrale d'Electronique - ECE,France
+196,Male,20359,4,$83.27M,Freie Kunst-Studienstätte Ottersberg,Germany
+197,Male,13456 CEDEX 13,5,$23.35M,Université de Bretagne Sud,France
+198,Female,93487 CEDEX,2,$189.23B,Institut Catholique d'Arts et Métiers Nantes,France
+199,Female,29825 CEDEX 9,8,$309.13M,Ecole Nationale Supérieure de Chimie et de Physique de Bordeaux,France
+200,Female,93164 CEDEX,7,$99.64M,Université Michel de Montaigne (Bordeaux III ),France
+201,Female,73091 CEDEX,4,$536.92M,Institut d'Etudes Politiques de Bordeaux,France
+202,Female,77294 CEDEX,6,$12.15B,Ecole Supérieure de Commerce de Rouen,France
+203,Male,49309 CEDEX,6,$618.48M,Ecole Normale Supérieure de Lyon,France
+204,Male,3004,5,n/a,Hogeschool Rotterdam,Netherlands
+205,Female,80891 CEDEX 3,8,$1.9B,Ecole Supérieure de Commerce de Sophia Antipolis,France
+206,Female,92787 CEDEX 9,5,$8.73B,Université des Sciences et Technologies de Lille (Lille I),France
+207,Male,29193 CEDEX,5,$1.49B,ENIC Telecom Lille 1,France
+208,Female,94434 CEDEX,7,$666.52M,Ecole Nationale Supérieure de Chimie de Rennes,France
+209,Male,2170,7,n/a,European International University,Belgium
+210,Female,31709 CEDEX,4,$1.73B,Université d'Angers,France
+211,Female,68947 CEDEX 9,4,$73.79M,Université Jean Monnet,France
+212,Female,80020 CEDEX 9,3,$374.11M,Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique,France
+213,Female,64080 CEDEX,7,n/a,Ecole Nationale de l'Aviation Civile,France
+214,Male,76029 CEDEX,9,n/a,Université de la Méditerranée (Aix Marseille II),France
+215,Female,2304,4,$3.61B,European Open University,Netherlands
+216,Male,90009 CEDEX,3,n/a,Université de Nantes,France
+217,Female,77453 CEDEX 2,5,$1.55B,Ecole Nationale Supérieure de Techniques Avancées,France
+218,Female,63409 CEDEX,4,$115.54M,Université de Franche-Comté,France
+219,Female,95219 CEDEX,5,$46.21B,Ecole Nationale Superieure d'Informatique et de Mathematiques Appliquees de Grenoble,France
+220,Male,92521 CEDEX,5,$207.26M,Université de Bretagne Sud,France
+221,Female,57119 CEDEX,7,$94.54M,Ecole Nationale Supérieure des Arts et Industries de Strasbourg,France
+222,Female,38066 CEDEX 2,8,$3.06B,Université de Poitiers,France
+223,Male,8019,9,$152.46M,European Open University,Netherlands
+224,Female,8304,4,n/a,European Open University,Netherlands
+225,Female,81373,9,$1.6B,Westsächsische Hochschule Zwickau (FH),Germany
+226,Male,81028 CEDEX 9,5,$3.34B,Université François Rabelais de Tours,France
+227,Male,2604,6,n/a,International Institute for Geo - Information Science and Earth Observation,Netherlands
+228,Female,54412 CEDEX,5,$2.08B,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+229,Female,41965 CEDEX 9,6,$195.09M,Ecole Nationale Supérieure de Chimie de Rennes,France
+230,Male,4384,8,$304.71M,NTI University,Netherlands
+231,Male,77294 CEDEX,3,n/a,Institut des hautes études économiques et commerciales,France
+232,Female,47304 CEDEX,6,$296.89M,"Ecole Nationale Supérieure d'Electronique, d'Electrotechnique, d'Informatique et d'Hydraulique de Toulouse",France
+233,Male,3109,9,$94.96M,University of Maastricht,Netherlands
+234,Female,75706 CEDEX 13,5,$34.01M,Ecole Nationale Supérieure d'Ingenieurs Electriciens de Grenoble,France
+235,Male,65951 CEDEX 9,4,$35.67M,Ecole Nationale Supérieure des Mines d'Alès,France
+236,Female,59468 CEDEX,4,$2.32B,"Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",France
+237,Female,94675 CEDEX,1,$10.76B,Institut National des Télécommunications,France
+238,Female,84404 CEDEX,5,$6.99B,Institut National des Sciences Appliquées de Lyon,France
+239,Male,27929 CEDEX 9,7,$749.53M,Groupe Sup de Co Montpellier,France
+240,Male,42659,2,$8.39B,Kirchliche Hochschule Wuppertal,Germany
+241,Male,92660 CEDEX,5,$506.48M,Ecole Supérieure de Chimie Physique Electronique de Lyon,France
+242,Male,14008 CEDEX 1,5,$600.74M,Ecole Supérieure de Physique et de Chimie Industrielles,France
+243,Female,77544 CEDEX,7,$100.76M,Institut de Recherche et d'Enseignement Supérieur aux Techniques de l'électronique,France
+244,Male,75976 CEDEX 20,4,$3.18B,Université d'Auvergne (Clermont-Ferrand I),France
+245,Female,L-6380,6,$1.49B,International University Institute of Luxembourg,Luxembourg
+246,Male,80031 CEDEX 1,4,$52.45B,Ecole Nationale Supérieure de Chimie de Rennes,France
+247,Male,75934 CEDEX 19,7,n/a,Ecole Supérieure de Commerce de Clermont-Ferrand,France
+248,Male,69303 CEDEX 07,2,$27.02B,Université de Pau et des Pays de l'Adour,France
+249,Male,30453,10,$12.15B,"Evangelische Fachhochschule für Sozialpädagogik der ""Diakonenanstalt des Rauhen Hauses"" Hamburg",Germany
+250,Female,78093 CEDEX 9,2,n/a,Université de Bretagne Sud,France
+251,Female,54516 CEDEX,1,$2.87B,American Graduate School in Paris,France
+252,Male,19011 CEDEX,7,n/a,Ecole Supérieure Internationale d'Administration des Entreprises,France
+253,Male,88109 CEDEX,7,$1.75B,Université de Bretagne Sud,France
+254,Male,1209,9,n/a,Lausanne Hotel School (EHL),Switzerland
+255,Female,39304 CEDEX,6,n/a,Ecole Nationale des Sciences Géographiques,France
+256,Female,4819,3,$114.27M,Leiden University,Netherlands
+257,Male,06173 CEDEX 2,6,$2.18B,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+258,Male,14097 CEDEX 9,4,n/a,Institut de Recherche et d'Enseignement Supérieur aux Techniques de l'électronique,France
+259,Male,13464 CEDEX 16,7,$5.39B,Université d'Orléans,France
+260,Male,75587 CEDEX 12,3,n/a,Université Rennes II - Haute-Bretagne,France
+261,Male,92645 CEDEX,0,$452.92M,Ecole d'Ingénieurs en Informatique pour l'Industrie,France
+262,Male,69239 CEDEX 02,5,$847.46M,Université Panthéon-Assas (Paris II),France
+263,Female,13456 CEDEX 13,5,$431.76M,Ecole Nationale Supérieure des Telecommunications de Bretagne,France
+264,Male,31069 CEDEX 7,5,$2.09B,Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy,France
+265,Male,73031 CEDEX,7,$106.79M,Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy,France
+266,Female,39605 CEDEX,13,$474.2M,Ecole Nationale Supérieure Electricité et Mécanique,France
+267,Female,59007 CEDEX,5,$3.52B,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement,France
+268,Female,6414,4,n/a,University of Groningen,Netherlands
+269,Male,L-5408,1,$7.89B,University of Luxemburg,Luxembourg
+270,Male,52109 CEDEX,4,$1.21B,Université Louis Pasteur (Strasbourg I),France
+271,Female,L-9170,5,$550.5M,International University Institute of Luxembourg,Luxembourg
+272,Female,3309,4,$59.42B,Fontys University of Applied Sciences,Netherlands
+273,Male,47139,5,$7.23M,Hochschule Coburg,Germany
+274,Male,70567,3,$54.13M,Fachhochschule Köln,Germany
+275,Male,44143,5,$14.14B,Fachhochschule Potsdam,Germany
+276,Male,1354,5,$463.67M,Tilburg University,Netherlands
+277,Female,57204 CEDEX,3,$5.04B,Institut des Sciences de l'Ingénieur de Montpellier,France
+278,Female,13540,5,$13.85M,Ecole Nationale Supérieur d'Ingénieurs de Constructions Aéronautique,France
+279,Male,89102 CEDEX,2,$7.36M,Ecole Nationale Supérieure de l'Electronique et de ses Applications,France
+280,Male,77504 CEDEX,1,$18.77B,Ecole Superieure Robert de Sorbon,France
+281,Male,86104 CEDEX,4,n/a,Ecole Nationale Supérieure des Industries Chimiques de Nancy,France
+282,Female,07004 CEDEX,9,n/a,Ecole des Hautes Etudes Industrielles de Lille,France
+283,Female,L-8069,2,$10.63B,University of Luxemburg,Luxembourg
+284,Male,3764,1,$229.8M,European Open University,Netherlands
+285,Female,24004 CEDEX,6,$20.84M,Ecole Française d'Electronique et d'Informatique,France
+286,Female,68504 CEDEX,5,$1.14B,Ecole Nationale de la Météorologie,France
+287,Female,41199,4,n/a,Rheinische Friedrich-Wilhelms Universität Bonn,Germany
+288,Female,3109,7,$3.17B,Tilburg University,Netherlands
+289,Male,22304 CEDEX,7,$702.27M,Centre de Formation et de Perfectionnement des Journalistes,France
+290,Male,34186 CEDEX 4,5,$1.45B,Université Michel de Montaigne (Bordeaux III ),France
+291,Female,2409,7,$99.12M,Roosevelt Academy University College,Netherlands
+292,Female,91077 CEDEX,3,$301.17M,Ecole Supérieure de Commerce et Management,France
+293,Male,34194 CEDEX 5,7,$3.89B,"Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",France
+294,Male,33619,1,n/a,Deutsche Hochschule für Verwaltungswissenschaften Speyer,Germany
+295,Female,07209 CEDEX,4,n/a,Ecole Nationale Supérieure d'Agronomie et des Industries Alimentaires,France
+296,Male,59865 CEDEX 9,1,$6.65M,Ecole Nationale Vétérinaire de Lyon,France
+297,Male,53085 CEDEX 9,1,$41.02M,Ecole Nationale Supérieure d'Agronomie de Montpellier,France
+298,Female,91049 CEDEX,6,$675.47M,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+299,Female,8004,8,$79.27M,International Hotel Management Institute,Switzerland
+300,Male,75587 CEDEX 12,6,$1.22B,Ecole Nationale d'Administration,France
+301,Female,62411 CEDEX,4,$1.68B,Ecole Supérieure d'Electricité,France
+302,Male,77214 CEDEX,4,$1.32B,Université Louis Pasteur (Strasbourg I),France
+303,Male,73209 CEDEX,3,$37.35B,Université Blaise Pascal (Clermont-Ferrand II),France
+304,Male,92393 CEDEX,2,n/a,Ecole Nationale Supérieure de Chimie de Mulhouse,France
+305,Female,04990 CEDEX 9,4,$64.46M,Université Paul Sabatier (Toulouse III),France
+306,Male,79304 CEDEX,4,$1.16B,Université de la Méditerranée (Aix Marseille II),France
+307,Female,86964 CEDEX,4,$238.33M,Centre de Formation et de Perfectionnement des Journalistes,France
+308,Female,75542 CEDEX 11,2,$1.62B,Ecole Normale Supérieure de Lyon,France
+309,Female,75949 CEDEX 19,2,$78.86M,Université de Pau et des Pays de l'Adour,France
+310,Female,75784 CEDEX 16,9,$58.82B,Université du Havre,France
+311,Female,62259 CEDEX,9,$399.95M,Ecole Nationale Supérieure de Physique de Marseille,France
+312,Male,13347,7,$69.29M,Fachhochschule München,Germany
+313,Female,1094,7,$513.32M,Hanzehogeschool Groningen,Netherlands
+314,Male,42809 CEDEX,7,$1.28B,Ecole Nationale Supérieure d'Electrochimie et d'Electrométallurgie de Gernoble,France
+315,Male,22111,5,$483.16M,Universität Koblenz-Landau,Germany
+316,Male,13841 CEDEX,4,$63.35M,Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy,France
+317,Female,79099 CEDEX 9,4,$2.14B,Institut National Polytechnique de Grenoble,France
+318,Female,13524 CEDEX,2,n/a,Ecole Spéciale des Travaux Publics du Bâtiment et de l'Industrie,France
+319,Female,13841 CEDEX,4,$1.15B,Ecole Nationale Supérieure d'Ingenieurs Electriciens de Grenoble,France
+320,Female,54076 CEDEX,4,$183.56M,Université de Cergy-Pontoise,France
+321,Male,13503 CEDEX,5,$2.7B,Institut des hautes études économiques et commerciales,France
+322,Female,5464,4,n/a,University of Twente,Netherlands
+323,Female,44804 CEDEX,4,$710.31M,Ecole Nationale Supérieure de Physique de Grenoble,France
+324,Male,33911 CEDEX 9,4,$1.61B,Ecole Supérieure de Commerce de Marseille-Provence,France
+325,Female,76418 CEDEX 9,1,$97.01M,Ecole Supérieure d'Optique,France
+326,Male,67604 CEDEX,3,n/a,Institut des hautes études économiques et commerciales,France
+327,Female,92822 CEDEX,2,$305.6M,Ecole Nationale Supérieure d'Ingénieurs en Mécanique et Energétique de Valenciennes,France
+328,Female,75784 CEDEX 16,8,$31.3M,Université Louis Pasteur (Strasbourg I),France
+329,Male,59784 CEDEX 9,7,n/a,Université de Caen Basse Normandie,France
+330,Male,38554 CEDEX,3,n/a,Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg,France
+331,Male,27109 CEDEX,8,$148.4M,Institut d'Etudes Politiques de Paris (Sciences Po),France
+332,Male,5464,6,$93.58M,Zuyd University,Netherlands
+333,Male,54154 CEDEX,3,$2.24B,Ecole Nationale Supérieur d'Ingénieurs de Constructions Aéronautique,France
+334,Female,84104 CEDEX,2,$118.89M,Université de Rouen - Haute Normandie,France
+335,Male,58004 CEDEX,7,$126.61M,Ecole Supérieure de Commerce de Bordeaux,France
+336,Female,8914,9,$88.58B,Hogeschool Inholland,Netherlands
+337,Male,35435 CEDEX,3,n/a,Université Paris Sud (Paris XI),France
+338,Male,99089,2,$53.7M,Universität Erfurt,Germany
+339,Female,44004 CEDEX 1,5,$1.35B,Grenoble Ecole de Management,France
+340,Male,57016 CEDEX 01,1,$152.41M,Université d'Aix-Marseille III,France
+341,Male,79204 CEDEX,4,n/a,Institut National des Sciences Appliquées de Rouen,France
+342,Female,31101 CEDEX 9,4,$2.62B,Ecole Nationale Supérieure de Chimie de Clermont-Ferrand,France
+343,Female,64109 CEDEX,9,$318.69M,Ecole Supérieure de Commerce de Le Havre/Caen,France
+344,Male,19011 CEDEX,5,$11.98M,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+345,Male,80891 CEDEX 3,3,$16.58B,Ecole Nationale des Ponts et Chausees,France
+346,Male,76177 CEDEX,5,$5.75B,Institut Catholique de Paris,France
+347,Female,13095 CEDEX 2,1,$56.64B,Ecole Supérieure d'Optique,France
+348,Male,75345 CEDEX 07,7,$282.31M,Groupe Sup de Co Amiens Picardie,France
+349,Male,35435 CEDEX,1,$165.47M,Université Paul Valéry (Montpellier III),France
+350,Male,7609,3,$4.16B,Foundation University,Netherlands
+351,Female,13348 CEDEX 20,8,$4.69B,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement,France
+352,Female,40013 CEDEX,4,$196.39M,Ecole Supérieure de Commerce de Reims,France
+353,Male,92061 CEDEX,2,$83.79M,Ecole de l'Air,France
+354,Female,94454 CEDEX,5,$2.16B,Université François Rabelais de Tours,France
+355,Male,75954 CEDEX 19,7,n/a,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+356,Male,35047 CEDEX 9,4,$715.78M,Ecole Supérieure de Commerce de Lille,France
+357,Female,67124 CEDEX,8,$852.55M,Institut National des Sciences Appliquées de Lyon,France
+358,Male,60434 CEDEX,3,$226.45M,Ecole Nationale d'Ingénieurs de Saint-Etienne,France
+359,Female,60109 CEDEX 1,13,$1.41B,Université Joseph Fourier (Grenoble I),France
+360,Female,88154 CEDEX,3,$21.7B,Institut National des Sciences Appliquées de Rennes,France
+361,Female,75547 CEDEX 11,7,n/a,Université Robert Schuman (Strasbourg III),France
+362,Female,L-8531,4,n/a,International University Institute of Luxembourg,Luxembourg
+363,Male,75587 CEDEX 12,5,n/a,Université de Nantes,France
+364,Male,56019 CEDEX,4,$185.42M,Ecole Supérieure d'Agriculture de Purpan,France
+365,Female,34536 CEDEX,5,$171.84M,Ecole Universitaire d'Ingénieurs de Lille,France
+366,Female,13327 CEDEX 15,2,$2.1B,American Graduate School in Paris,France
+367,Male,21209 CEDEX,10,$618.24M,Université Nancy II,France
+368,Female,91029 CEDEX,5,$58.82B,Ecole Nationale Supérieure d'Agronomie et des Industries Alimentaires,France
+369,Female,25204 CEDEX,3,$541.39M,Ecole Catholique d'Arts & Metiers,France
+370,Male,90451,3,$65.53M,Hochschule Magdeburg-Stendal (FH),Germany
+371,Male,4874,4,n/a,University for Humanistics (UH),Netherlands
+372,Female,93883 CEDEX,10,$5.35B,Ecole Centrale de Nantes,France
+373,Female,49309 CEDEX,7,$14.58M,Université de Valenciennes et du Hainaut-Cambrésis,France
+374,Male,69362 CEDEX 07,6,$329.78M,Ecole Nationale Supérieure de Chimie de Toulouse,France
+375,Male,78165 CEDEX,10,$24.23M,Centre d'Etudes Supérieures des Techniques Industrielles,France
+376,Male,35087 CEDEX,7,n/a,Université Vincennes Saint-Denis (Paris VIII),France
+377,Female,44036 CEDEX 1,6,$17.47B,Université Jean Monnet,France
+378,Male,86083 CEDEX 9,3,$1.76B,Ecole Normale Supérieure de Fontenay-Saint Cloud,France
+379,Female,4010,3,$1.99B,University of Applied Sciences Solothurn Northwestern Switzerland,Switzerland
+380,Male,35605 CEDEX,1,$63.58M,Ecole Supérieure des Sciences Commerciales d'Angers,France
+381,Female,22004 CEDEX 1,10,n/a,Université Robert Schuman (Strasbourg III),France
+382,Female,69907 CEDEX 20,7,n/a,Université René Descartes (Paris V),France
+383,Male,59895 CEDEX 9,7,n/a,Ecole Nationale Supérieure des Telecommunications de Paris,France
+384,Female,06116,6,$979.51M,Fachhochschule Gießen-Friedberg,Germany
+385,Female,83300,6,$542.67M,Ecole Nationale Supérieur de Mécaniques et des Microtechniques,France
+386,Male,7804,3,$807.79M,Radboud University of Nijmegen,Netherlands
+387,Female,24109,4,$858.03M,Universität Erfurt,Germany
+388,Female,76029 CEDEX,2,$63.88M,Ecole Nationale d'Ingénieurs de Metz,France
+389,Male,81506 CEDEX,5,$34.07M,Ecole Nationale d'Ingénieurs de Saint-Etienne,France
+390,Male,76011 CEDEX,5,$52.53M,Université Denis Diderot (Paris VII),France
+391,Female,38554 CEDEX,4,$100.76M,Université de Franche-Comté,France
+392,Female,69446 CEDEX 03,6,$276.46M,Institut d'Etudes Politiques de Paris (Sciences Po),France
+393,Female,75096 CEDEX 02,6,$6.99B,Ecole Nationale Supérieure de Biologie Appliquée à la Nutrition et à l'Alementation,France
+394,Male,L-9378,5,n/a,University of Luxemburg,Luxembourg
+395,Female,14409 CEDEX,8,n/a,Université de Marne la Vallée,France
+396,Male,5509,4,$17.83M,Radboud University of Nijmegen,Netherlands
+397,Female,5244,3,$10.19B,Foundation University,Netherlands
+398,Female,73009 CEDEX,2,$128.88M,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement,France
+399,Female,78204 CEDEX,2,$536.92M,Ecole Nationale Supérieur de Géologie de Nancy,France
+400,Male,51149,7,$2.93B,Universität Augsburg,Germany
+401,Male,5044,3,$775.3M,Hogeschool Inholland,Netherlands
+402,Male,68925 CEDEX,4,$8.51B,Ecole Nationale de la Météorologie,France
+403,Female,07304 CEDEX,2,$118.13M,Université Catholique de Lille,France
+404,Male,92393 CEDEX,6,$69.29M,Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique,France
+405,Male,78020 CEDEX,4,$890M,Groupe Sup de Co Amiens Picardie,France
+406,Female,21209 CEDEX,3,$32.65B,Université Rennes I,France
+407,Male,L-9651,10,$5.52B,International University Institute of Luxembourg,Luxembourg
+408,Male,13662 CEDEX,1,$1.21B,Université Jean Monnet,France
+409,Male,50204 CEDEX,5,$589.8M,Ecole Nationale Supérieure de Physique de Marseille,France
+410,Male,72100,9,$177.28M,Université Sorbonne-Nouvelle (Paris III),France
+411,Female,76029 CEDEX,7,$36.8M,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+412,Female,37044 CEDEX 9,3,$1.28B,Ecole des Ingénieurs de la Ville de Paris,France
+413,Male,79106,5,$193.2M,"Fachhochschule Stuttgart, Hochschule für Technik",Germany
+414,Male,35164 CEDEX,3,$30.33B,Ecole Supérieure des Sciences Commerciales d'Angers,France
+415,Male,21806 CEDEX,5,$48.81M,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+416,Female,7504,6,$1.32B,Free University Amsterdam,Netherlands
+417,Female,78093 CEDEX 9,7,$83.67M,Université du Droit et de la Sante (Lille II),France
+418,Male,75235 CEDEX 05,3,n/a,Université Vincennes Saint-Denis (Paris VIII),France
+419,Male,37032 CEDEX 1,4,$2.76B,Ecole Centrale d'Electronique - ECE,France
+420,Male,13568 CEDEX 02,7,$266.19M,"Schiller International University, Strasbourg",France
+421,Female,83404 CEDEX,4,n/a,Ecole Nationale Supérieure des Mines de Paris,France
+422,Male,13538 CEDEX,4,$8.37B,Ecole Polytechnique,France
+423,Male,84092 CEDEX 9,2,n/a,Ecole Supérieure de Commerce et Management,France
+424,Female,84964 CEDEX,3,$4.08B,Ecole Nationale Supérieure d'Ingénieurs de Génie Chimique,France
+425,Female,31101 CEDEX 9,2,$393.18M,Centre d'Etudes Supérieures Industrielles Paris,France
+426,Male,6824,4,$185.4M,NHL University of Applied Sciences,Netherlands
+427,Female,1354,5,$446M,University for Humanistics (UH),Netherlands
+428,Female,92214 CEDEX,6,$146.64M,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+429,Male,67137 CEDEX,2,n/a,Ecole Supérieure de Commerce de Brest,France
+430,Male,28034 CEDEX,4,n/a,Ecole Supérieure de Commerce de Nantes-Atlantique,France
+431,Male,88504 CEDEX,5,n/a,Institut National des Sciences Appliquées de Toulouse,France
+432,Male,16104 CEDEX,6,$710.19M,Université de Corse Pascal Paoli,France
+433,Female,38504 CEDEX,3,n/a,Ecole Supérieure des Sciences Commerciales d'Angers,France
+434,Female,7814,3,$796.59M,Islamic University of Rotterdam,Netherlands
+435,Male,77815 CEDEX,8,n/a,Université de Reims Champagne-Ardenne,France
+436,Male,41355 CEDEX,4,$9.04B,Ecole Nationale Supérieure d'Agronomie et des Industries Alimentaires,France
+437,Female,75080 CEDEX 02,1,$6.98B,Institut des Sciences de l'Ingénieur de Montpellier,France
+438,Male,75374 CEDEX 08,7,$548.61M,Université de Montpellier II,France
+439,Male,4819,5,$20.37B,Radboud University of Nijmegen,Netherlands
+440,Female,60022 CEDEX,1,n/a,Université d'Orléans,France
+441,Female,64504 CEDEX,11,$61.57M,Ecole Nationale Supérieure d'Agronomie et des Industries Alimentaires,France
+442,Female,34194 CEDEX 5,7,$84.95M,Ecole Supérieure d'Electronique de l'Ouest,France
+443,Female,92139 CEDEX,4,$487.29M,IDRAC (Institut de recherche en action commerciale),France
+444,Female,92885 CEDEX 9,9,n/a,Ecole Nationale Supérieure de Chimie de Rennes,France
+445,Female,45141,4,$854.72M,Fachhochschule München,Germany
+446,Female,91959 CEDEX,4,$286.77M,Ecole des Hautes Etudes Industrielles de Lille,France
+447,Male,68004 CEDEX,6,$6.18B,"British Institute in Paris, University of London",France
+448,Male,73209 CEDEX,5,$1.52B,Ecole Catholique d'Arts & Metiers,France
+449,Female,22111,5,$2.54B,Pädagogische Hochschule Schwäbisch Gmünd,Germany
+450,Male,59784 CEDEX 9,6,$1.18B,Ecole Supérieure de Commerce et Management,France
+451,Female,94745 CEDEX,8,$567.1M,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Grenoble,France
+452,Female,37082 CEDEX 2,6,$13.04M,Institut Catholique de Paris,France
+453,Male,84072 CEDEX 4,7,$269.2M,Ecole Normale Supérieure de Paris,France
+454,Male,07309 CEDEX,5,$8.37B,Ecole Nationale Supérieure des Mines de Douai,France
+455,Male,06357 CEDEX 4,4,$1.72B,Institut Catholique d'Arts et Métiers Lille,France
+456,Female,91049 CEDEX,6,$4.11B,European Business School,France
+457,Male,95092 CEDEX,3,$38.98B,Ecole Supérieure de Commerce de Brest,France
+458,Female,2334,7,n/a,Stenden University,Netherlands
+459,Male,89010 CEDEX,3,n/a,Institut National des Sciences Appliquées de Rennes,France
+460,Female,87066 CEDEX 2,7,$403.05M,Université Robert Schuman (Strasbourg III),France
+461,Male,16104 CEDEX,6,n/a,Université Robert Schuman (Strasbourg III),France
+462,Male,38509 CEDEX,5,n/a,Université Louis Pasteur (Strasbourg I),France
+463,Female,6529,3,$1.57B,Universiteit Doesburg (UNDO),Netherlands
+464,Male,94224 CEDEX,3,$469.81M,Institut des hautes études économiques et commerciales,France
+465,Male,49023 CEDEX 02,6,$21.91B,"Université du Sud, Toulon et Var",France
+466,Female,94234 CEDEX,4,n/a,"Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",France
+467,Male,L-7270,3,$20.13M,International University Institute of Luxembourg,Luxembourg
+468,Male,58004 CEDEX,2,n/a,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+469,Male,18104 CEDEX,7,$3.09B,Université de Poitiers,France
+470,Female,13681 CEDEX,6,$1.4B,Université d'Aix-Marseille III,France
+471,Male,91104 CEDEX,8,$531.09M,Université de Franche-Comté,France
+472,Female,75390 CEDEX 08,5,$379.12M,Grenoble Ecole de Management,France
+473,Female,27576,3,$414.73M,Universität Koblenz-Landau,Germany
+474,Female,77304 CEDEX,7,$10.91M,Université des Sciences Sociales (Toulouse I),France
+475,Female,17209 CEDEX,3,$7.22B,Ecole Nationale Supérieure de Physique de Strasbourg,France
+476,Female,53009 CEDEX,2,$27.99M,Ecole Nationale Supérieure de Techniques Avancées,France
+477,Male,25204 CEDEX,4,$209.97M,ENIC Telecom Lille 1,France
+478,Male,34294 CEDEX 5,5,n/a,Ecole Nationale des Sciences Géographiques,France
+479,Male,44269,5,$253.22M,Fachhochschule Koblenz,Germany
+480,Male,94537 CEDEX,7,n/a,Ecole Supérieure d'Informatique-Electronique-Automatique,France
+481,Male,50309 CEDEX,7,$1.19B,Ecole Nationale Superieure d'Informatique et de Mathematiques Appliquees de Grenoble,France
+482,Female,42014 CEDEX 2,6,$11.18B,Université Paul Sabatier (Toulouse III),France
+483,Male,75128 CEDEX 11,2,$1.02B,Université François Rabelais de Tours,France
+484,Male,85923 CEDEX 9,6,$1.22B,Ecole Nationale Supérieure des Industries Chimiques de Nancy,France
+485,Female,92056 CEDEX,5,$22.36M,Université des Sciences Sociales (Toulouse I),France
+486,Male,25117 CEDEX,10,$72.13M,Université de Provence (Aix-Marseille I),France
+487,Female,68704 CEDEX,4,$4.33B,Ecole Nationale de la Statistique et de l'Analyse de l'information,France
+488,Male,92521 CEDEX,6,$8.98B,"British Institute in Paris, University of London",France
+489,Male,L-9765,9,n/a,International University Institute of Luxembourg,Luxembourg
+490,Female,74041 CEDEX,6,$858.79M,Ecole Supérieure de Commerce de Dijon,France
+491,Female,06224 CEDEX,6,$442.96M,Université Rennes II - Haute-Bretagne,France
+492,Male,41942 CEDEX 9,3,$229.33M,Institut Supérieur d'Agriculture Lille,France
+493,Female,84204 CEDEX,5,$170.57M,Université de la Méditerranée (Aix Marseille II),France
+494,Female,9052,5,$124.75M,ECAM - Institut Supérieur Industriel,Belgium
+495,Female,5244,5,n/a,Hogeschool Rotterdam,Netherlands
+496,Male,44474 CEDEX,6,$1.63B,Ecole Nationale Supérieure de Physique de Marseille,France
+497,Male,33614 CEDEX,9,$74.57M,Ecole Supérieure de Commerce de Lyon,France
+498,Male,L-4993,5,$441.75M,International University Institute of Luxembourg,Luxembourg
+499,Male,L-8523,5,$299.85M,International University Institute of Luxembourg,Luxembourg
+500,Female,59444 CEDEX,5,$1.82B,Institut de Recherche et d'Enseignement Supérieur aux Techniques de l'électronique,France
+501,Female,57954 CEDEX,5,$4.5B,Ecole Nationale Supérieure de Biologie Appliquée à la Nutrition et à l'Alementation,France
+502,Male,72035 CEDEX 1,3,$67.58M,Université d'Avignon,France
+503,Male,92742 CEDEX,3,$101.12M,Ecole Nationale Supérieure de Chimie de Paris,France
+504,Male,3439,4,$970.48M,Foundation University,Netherlands
+505,Female,94865 CEDEX,9,$22.51M,Ecole Spéciale de Mécanique et d'Electricité,France
+506,Male,37922 CEDEX 9,5,$9.97B,Université Montesquieu (Bordeaux IV),France
+507,Male,93462 CEDEX,5,n/a,"Ecole Nationale Supérieure d'Electronique, d'Electrotechnique, d'Informatique et d'Hydraulique de Toulouse",France
+508,Male,13316 CEDEX 15,4,$2.33B,Institut des Sciences de la Matière et du Rayonnement,France
+509,Male,95445 CEDEX,8,n/a,Ecole Nationale Supérieure de Physique de Marseille,France
+510,Female,54704 CEDEX,7,$889.24M,Ecole Nationale d'Ingénieurs de Metz,France
+511,Female,33036 CEDEX,2,n/a,Université du Maine,France
+512,Female,L-6231,6,n/a,International University Institute of Luxembourg,Luxembourg
+513,Female,84072 CEDEX 4,4,$1.05B,Ecole Nationale Supérieure de Biologie Appliquée à la Nutrition et à l'Alementation,France
+514,Male,L-5978,5,$858.11M,University of Luxemburg,Luxembourg
+515,Male,64234 CEDEX,6,$12.99M,Ecole Universitaire d'Ingénieurs de Lille,France
+516,Female,L-8396,6,$8.23B,International University Institute of Luxembourg,Luxembourg
+517,Female,57954 CEDEX,4,$45.78M,Ecole Supérieure de Commerce de Pau,France
+518,Female,L-8295,7,$53.58M,University of Luxemburg,Luxembourg
+519,Female,85009 CEDEX,9,$347.55M,American University of Paris,France
+520,Male,13509,7,$6.43B,Fachhochschule für das öffentliche Bibliothekswesen Bonn,Germany
+521,Male,06721 CEDEX,1,$10.8B,Ecole Nationale Supérieure d'Agronomie de Rennes,France
+522,Female,78942 CEDEX,4,$19.42M,Université de Technologie de Troyes,France
+523,Female,77316 CEDEX 2,7,$582.59M,Université de Nice-Sophia Antipolis,France
+524,Female,71309 CEDEX,9,$186.89M,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+525,Female,38327 CEDEX,7,$756.67M,Ecole Catholique d'Arts & Metiers,France
+526,Female,4819,5,$235.18M,Dutch Delta University,Netherlands
+527,Female,93504 CEDEX,6,n/a,Ecole Polytechnique,France
+528,Male,93175 CEDEX,3,$5.11B,"Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",France
+529,Male,02004 CEDEX,4,$17.94B,Ecole d'Ingénieurs en Informatique pour l'Industrie,France
+530,Male,4024,8,$91.07M,University of Applied Sciences Aargau,Switzerland
+531,Female,41468,5,$1.54B,Philosophisch-Theologische Hochschule Vallendar der Gesellschaft des Katholischen Apostolates (Pallottiner),Germany
+532,Female,06254 CEDEX,5,$99.64M,Ecole Supérieure d'Optique,France
+533,Male,44004 CEDEX 1,7,$5.06B,Ecole Nationale Supérieure de Physique de Marseille,France
+534,Male,8204,3,$355.85M,University of Groningen,Netherlands
+535,Female,3009,7,$3.72B,Dutch Delta University,Netherlands
+536,Female,35581,4,$3.51B,International University in Germany,Germany
+537,Female,94865 CEDEX,5,$748.44M,Université de Corse Pascal Paoli,France
+538,Female,92527 CEDEX,5,$209.48M,Ecole Nationale Supérieure du Pétrole et des Monteurs,France
+539,Male,06116 CEDEX,5,$4.5B,Institut Catholique d'Arts et Métiers Lille,France
+540,Male,5029,1,$15.33M,NHL University of Applied Sciences,Netherlands
+541,Female,37705 CEDEX,1,$1.43B,Institut Supérieure d'Electronique de Paris,France
+542,Male,76069 CEDEX,4,$290.7M,Ecole Supérieure d'Agriculture d'Angers,France
+543,Female,92742 CEDEX,3,$17.1B,Ecole des Hautes Etudes Commerciales,France
+544,Male,75312 CEDEX 09,8,$21.03M,Ecole Superieure Robert de Sorbon,France
+545,Female,30104 CEDEX,4,$731.26M,Université des Sciences Sociales (Toulouse I),France
+546,Female,92041 CEDEX,6,$122.79M,Ecole Nationale Vétérinaire d'Alfort,France
+547,Female,26350,2,$2.41B,Ecole Superieure Robert de Sorbon,France
+548,Male,59715 CEDEX 9,5,$231.47M,Institut Textile et Chimique de Lyon,France
+549,Male,34504 CEDEX,8,$3.34B,Université de Technologie de Compiègne,France
+550,Female,25204 CEDEX,6,n/a,Université Catholique de l' Ouest,France
+551,Male,01154 CEDEX,5,$12.79B,Université de Marne la Vallée,France
+552,Male,8004,5,$274.06M,Graduate School of Business Administration Zurich (GSBA Zurich),Switzerland
+553,Female,50733,6,$658.05M,"Hochschule für Technik, Wirtschaft und Kultur Leipzig (FH)",Germany
+554,Male,L-5978,4,n/a,University of Luxemburg,Luxembourg
+555,Female,31804 CEDEX,5,n/a,Université Paris Sud (Paris XI),France
+556,Female,22042 CEDEX 2,4,n/a,Université Bordeaux I,France
+557,Female,L-3377,5,$29.21M,University of Luxemburg,Luxembourg
+558,Female,2334,9,$8.75B,University of Amsterdam,Netherlands
+559,Female,7536,5,$3.38B,Faculté Universitaire des Sciences Agronomiques de Gembloux,Belgium
+560,Male,91029 CEDEX,7,n/a,Université Val-de-Marne (Paris XII),France
+561,Male,67124 CEDEX,5,$210.14M,Ecole Nationale Supérieure de Chimie de Paris,France
+562,Female,L-8295,6,n/a,University of Luxemburg,Luxembourg
+563,Female,66845 CEDEX,4,$2.05B,Université Blaise Pascal (Clermont-Ferrand II),France
+564,Female,81543,6,$469.81M,Fachhochschule für Verwaltung und Rechtspflege Berlin,Germany
+565,Male,L-9780,2,n/a,University of Luxemburg,Luxembourg
+566,Male,92159 CEDEX,4,$463.67M,Institut Supérieure d'Electronique de Paris,France
+567,Female,34536 CEDEX,5,$21.91B,Université Lumiére (Lyon II),France
+568,Female,01189,7,$27.63M,Deutsche Sporthochschule Köln,Germany
+569,Female,44804 CEDEX,3,$11.67B,Ecole Nationale Supérieur de Mécanique et d'Aéronautique,France
+570,Male,4384,13,$153.66M,Radboud University of Nijmegen,Netherlands
+571,Female,57045 CEDEX 01,3,$555.38M,Ecole Universitaire d'Ingénieurs de Lille,France
+572,Female,59715 CEDEX 9,2,$225.51M,Institut Supérieur d'Agriculture Lille,France
+573,Female,2019,5,n/a,Radboud University of Nijmegen,Netherlands
+574,Male,82004 CEDEX,9,$54.95M,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+575,Female,76086 CEDEX,4,$814.18M,Institut Textile et Chimique de Lyon,France
+576,Male,62254 CEDEX,2,$6.15B,Ecole Nationale Supérieure Agronomique de Toulouse,France
+577,Female,75934 CEDEX 19,9,$401.18M,European Management Center Paris,France
+578,Female,39130,6,$187.29M,Northern Institute of Technology Management (NIT),Germany
+579,Female,54039 CEDEX,1,$631.55M,Institut National des Sciences Appliquées de Lyon,France
+580,Male,6709,8,n/a,University of Maastricht,Netherlands
+581,Female,13807 CEDEX,7,$8.17M,"Ecole Nationale Supérieure en Electrotechnique, Electronique, Informatique et Hydraulique de Toulouse",France
+582,Male,83040 CEDEX 9,5,$842.05M,Ecole Nationale Supérieure de Chimie de Clermont-Ferrand,France
+583,Male,92139 CEDEX,11,$541.62M,Université de Marne la Vallée,France
+584,Female,22769,5,n/a,"Technische Fachhochschule Georg Agricola für Rohstoff, Energie und, Umwelt zu Bochum",Germany
+585,Female,3011,8,$811.57M,NTB Interstate University of Applied Sciences of Technology,Switzerland
+586,Female,95874 CEDEX,5,$164.61M,Université d'Aix-Marseille III,France
+587,Male,5664,9,n/a,Foundation University,Netherlands
+588,Male,2629,8,$749.12M,Foundation University,Netherlands
+589,Male,35914 CEDEX 9,6,$1.82B,Ecole Superieure Robert de Sorbon,France
+590,Female,05004 CEDEX,4,n/a,Ecole Supérieure de Chimie Physique Electronique de Lyon,France
+591,Male,58017 CEDEX,2,$814.18M,Ecole Nationale Supérieure de Chimie de Rennes,France
+592,Male,92527 CEDEX,5,$6.65M,Ecole Normale Supérieure de Paris,France
+593,Female,7032,6,$16.68B,Facultés Universitaires Notre-Dame de la Paix,Belgium
+594,Male,79042 CEDEX 9,2,$21.32B,Université d'Aix-Marseille III,France
+595,Female,73009 CEDEX,5,$3.95B,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+596,Male,39304 CEDEX,4,$2.97B,ENIC Telecom Lille 1,France
+597,Male,L-9172,1,$51.95B,University of Luxemburg,Luxembourg
+598,Male,86062 CEDEX 9,6,$741.31M,American University of Paris,France
+599,Male,20292 CEDEX,4,$3.85B,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Bordeaux,France
+600,Female,55109 CEDEX,9,$2.41B,Ecole Nationale Supérieure de Chimie de Toulouse,France
+601,Male,34435 CEDEX,1,$592.24M,Ecole Nationale Supérieure de Chimie de Toulouse,France
+602,Male,9052,4,$658.35M,EHSAL - Europese Hogeschool Brussel,Belgium
+603,Female,56209 CEDEX,6,$184.08M,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+604,Female,91295 CEDEX,3,$16.59M,Université Montesquieu (Bordeaux IV),France
+605,Male,61004 CEDEX,9,$3.11B,Ecole Supérieure de Commerce et Management,France
+606,Female,17314 CEDEX,9,$95.29B,Institut Supérieure d'Electronique de Paris,France
+607,Male,28009 CEDEX,9,$2.41B,Ecole Nationale Supérieure des Arts et Industries Textiles,France
+608,Male,67604 CEDEX,9,n/a,Université de Nice-Sophia Antipolis,France
+609,Male,94019 CEDEX,7,$228.5M,Université Michel de Montaigne (Bordeaux III ),France
+610,Female,20311 CEDEX 1,0,$7.18M,European Management Center Paris,France
+611,Male,38319 CEDEX,3,$50.64M,Institut des hautes études économiques et commerciales,France
+612,Male,13382 CEDEX 13,5,$4.83B,Ecole Supérieure de Commerce de Grenoble,France
+613,Male,21030 CEDEX,6,$923.44M,Ecole Nationale de la Statistique et de l'Analyse de l'information,France
+614,Male,8042,3,$20.65B,"European Graduate School, Media & Communications",Switzerland
+615,Female,87930 CEDEX 9,4,$268.02M,Institut de Recherche et d'Enseignement Supérieur aux Techniques de l'électronique,France
+616,Female,92509 CEDEX,6,n/a,Université de Valenciennes et du Hainaut-Cambrésis,France
+617,Male,7409,9,$535.68M,Hogeschool van Amsterdam,Netherlands
+618,Male,1814,7,$27.6M,Hogeschool Utrecht,Netherlands
+619,Female,7409,3,$7.15B,University of Twente,Netherlands
+620,Male,67504 CEDEX,5,$233.93M,Université de Savoie,France
+621,Female,63009 CEDEX 1,6,$3.17B,Ecole Nationale Supérieure de Chimie de Montpellier,France
+622,Male,34504 CEDEX,7,$718.32M,Université du Droit et de la Sante (Lille II),France
+623,Female,54304 CEDEX,9,n/a,"Schiller International University, Paris",France
+624,Male,72015 CEDEX 2,7,$748.44M,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+625,Female,78165 CEDEX,4,$11.24B,Université Paul Sabatier (Toulouse III),France
+626,Male,40025 CEDEX,6,$807.79M,Institut National Polytechnique de Toulouse,France
+627,Male,17189 CEDEX,3,$21.5M,Ecole Nationale des Travaux Publics de l'Etat,France
+628,Male,84309 CEDEX,10,$15.38M,Université de Marne la Vallée,France
+629,Female,76029 CEDEX,5,$806.93M,Institut Supérieur d'Agriculture Lille,France
+630,Male,51149,11,$1.08B,Katholische Fachhochschule Berlin (KFB),Germany
+631,Male,44869,8,$138.36M,"Fachhochschule Trier, Hochschule für Technik, Wirtschaft und Gestaltung",Germany
+632,Female,92398 CEDEX,7,$3.95B,Université d'Avignon,France
+633,Male,16015 CEDEX,11,$1.77B,Université de Provence (Aix-Marseille I),France
+634,Female,78804 CEDEX,4,$1.36B,Université Paul Sabatier (Toulouse III),France
+635,Male,95604 CEDEX,6,$1.53B,Ecole Nationale Supérieure Agronomique de Toulouse,France
+636,Male,L-5408,5,$374.11M,University of Luxemburg,Luxembourg
+637,Female,34545 CEDEX,2,$531.92M,Ecole Supérieure d'Electricité,France
+638,Male,24053 CEDEX,6,$4.11M,Ecole Supérieure Internationale d'Administration des Entreprises,France
+639,Female,38219 CEDEX,8,$1.11B,Institut National Polytechnique de Toulouse,France
+640,Female,63504 CEDEX,3,$7.22B,Université Bordeaux I,France
+641,Female,95809 CEDEX,3,$920.02M,Ecole Supérieure de Commerce de Grenoble,France
+642,Male,42014 CEDEX 2,6,$5.33B,European Management Center Paris,France
+643,Female,2409,7,$94.73M,Hotelschool The Hague,Netherlands
+644,Male,78304 CEDEX,6,$2.58B,Université de Franche-Comté,France
+645,Female,42349,3,n/a,Justus Liebig Universität Gießen,Germany
+646,Male,75712 CEDEX 15,5,$3.46B,Ecole des Ingénieurs de la Ville de Paris,France
+647,Female,45204 CEDEX,7,$847.91M,Ecole Supérieure d'Optique,France
+648,Male,7509,3,$17.14B,Eindhoven University of Technology,Netherlands
+649,Male,78504 CEDEX,2,$5.84B,Université Vincennes Saint-Denis (Paris VIII),France
+650,Male,94685 CEDEX,5,$835.65M,Ecole des Ingénieurs de la Ville de Paris,France
+651,Male,2170,6,$31.13B,"Katholieke Universiteit Leuven, Campus Kortrijk",Belgium
+652,Female,76177 CEDEX,2,$61.14B,Ecole Nationale Supérieure de Techniques Avancées,France
+653,Female,06116,6,$345.67M,Fachhochschule für die Wirtschaft,Germany
+654,Female,37205 CEDEX 3,4,$21.71B,Université François Rabelais de Tours,France
+655,Male,20459,2,$671.8M,"Technische Fachhochschule Georg Agricola für Rohstoff, Energie und, Umwelt zu Bochum",Germany
+656,Male,65204 CEDEX,5,$3.53B,Institut Supérieur Agricole de Beauvais,France
+657,Male,59784 CEDEX 9,6,$226.81B,Ecole Européen des Affaires,France
+658,Male,93104 CEDEX,8,$288.73M,Ecole d'Ingénieurs en Informatique pour l'Industrie,France
+659,Female,06224 CEDEX,1,$3.5B,Ecole pour les Etudes et la Recherche en Informatique et Electronique,France
+660,Female,60647 CEDEX,3,$658.69M,Ecole Nationale Supérieure de Chimie de Rennes,France
+661,Male,57954 CEDEX,6,$187.3M,Ecole Normale Supérieure de Cachan,France
+662,Female,80804,4,$345.67M,Duale Hochschule Baden-Württemberg,Germany
+663,Female,44933 CEDEX 9,7,$4.45B,Ecole Nationale d'Ingénieurs de Tarbes,France
+664,Female,54039 CEDEX,4,$218.35M,Ecole Nationale de la Statistique et de l'Analyse de l'information,France
+665,Male,13327 CEDEX 15,4,$256.09M,Université Sorbonne-Nouvelle (Paris III),France
+666,Female,2304,5,n/a,De Haagse Hogeschool,Netherlands
+667,Male,85109 CEDEX,6,$198.29M,Ecole Supérieure Internationale d'Administration des Entreprises,France
+668,Female,45922 CEDEX 9,12,$296.68M,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+669,Male,24004 CEDEX,5,$217.64M,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement,France
+670,Male,92864 CEDEX 9,3,$86.55M,Ecole Nationale de la Statistique et de l'Administration Economique,France
+671,Female,78804 CEDEX,4,$888.39M,Ecole Supérieure de Commerce de Bordeaux,France
+672,Female,13293 CEDEX 08,2,$14.72B,Ecole Supérieure des Techniques Industrielles et des Textiles,France
+673,Male,29404 CEDEX,8,$653.44M,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+674,Male,1354,6,n/a,Wittenborg University,Netherlands
+675,Male,90411,8,$782.98M,Hochschule für Politik (HFP),Germany
+676,Male,09123,6,$296.68M,Katholische Fachhochschule Berlin (KFB),Germany
+677,Male,49309 CEDEX,3,$481M,"Ecole Nationale Supérieure en Electrotechnique, Electronique, Informatique et Hydraulique de Toulouse",France
+678,Female,42275 CEDEX,5,$648.58M,Université de Technologie de Belfort Montbéliard,France
+679,Male,59309 CEDEX,2,$33.73M,Université de Versailles Saint-Quentin-en-Yvelines,France
+680,Male,35009 CEDEX,6,$1.64B,Centre National d'Etudes Agronomiques des Régions Chaudes,France
+681,Male,90411,6,$68.47M,"Fachhochschule Mannheim, Hochschule für Sozialwesen",Germany
+682,Female,57204 CEDEX,6,$875.28M,Institut Supérieur d'Agriculture Lille,France
+683,Male,01189,6,$437.4M,Private Universität Witten/Herdecke,Germany
+684,Male,1624,2,$1.15B,Hotelschool The Hague,Netherlands
+685,Male,27109 CEDEX,4,$6.47M,Ecole Nationale Supérieure des Arts et Industries Textiles,France
+686,Male,6005,7,$417.19M,Business School Lausanne (BSL),Switzerland
+687,Female,14908 CEDEX 9,4,n/a,Université Rennes II - Haute-Bretagne,France
+688,Female,77708 CEDEX 4,7,$101.59M,"Ecole Nationale Supérieure en Electrotechnique, Electronique, Informatique et Hydraulique de Toulouse",France
+689,Male,17004 CEDEX 1,4,$21.66B,Ecole Nationale Vétérinaire de Lyon,France
+690,Female,L-3755,4,$4.42B,University of Luxemburg,Luxembourg
+691,Male,64704 CEDEX,6,n/a,Université Paul Valéry (Montpellier III),France
+692,Female,75669 CEDEX 14,5,$10.06M,Institut Catholique de Toulouse,France
+693,Female,46004 CEDEX 9,2,$985.94M,Ecole Nationale Supérieure des Industries Chimiques de Nancy,France
+694,Female,51149,6,$805.82M,DIPLOMA-Fachhochschule Ölsnitz/Vogtland,Germany
+695,Female,78294 CEDEX,7,$890M,Ecole Nationale Supérieure de Physique de Marseille,France
+696,Female,44143,5,$244.93M,Gustav-Siewerth-Akademie,Germany
+697,Male,37205 CEDEX 3,7,$186.31M,Ecole Nationale d'Administration,France
+698,Male,07309 CEDEX,7,n/a,Ecole Supérieure d'Ingénieurs et de Techniciens pour l'Agriculture,France
+699,Female,27309 CEDEX,4,$540.44B,Institut National Supérieur de Formation Agro-Alimentaire,France
+700,Female,7609,6,$4.17B,Hogeschool Rotterdam,Netherlands
+701,Female,91709 CEDEX,2,$462.71M,Ecole Nationale Supérieure de l'Aéronautique et de l'Espace,France
+702,Female,01462,6,$332.73M,Friedrich-Alexander Universität Erlangen-Nürnberg,Germany
+703,Female,92393 CEDEX,4,$491.64M,Ecole Nationale Supérieure Agronomique de Toulouse,France
+704,Male,59407 CEDEX,11,$873.82M,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Grenoble,France
+705,Female,1804,5,$491.34M,Free University Amsterdam,Netherlands
+706,Male,45922 CEDEX 9,4,$2.08B,Grenoble Ecole de Management,France
+707,Female,67961 CEDEX 9,6,n/a,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+708,Female,34032 CEDEX 1,7,$164.19M,Institut National des Télécommunications,France
+709,Female,30112 CEDEX,3,n/a,Ecole Nationale de la Statistique et de l'Analyse de l'information,France
+710,Male,81109 CEDEX,3,$256.36M,Université Stendhal (Grenoble III),France
+711,Male,1019,9,$1.83B,Roosevelt Academy University College,Netherlands
+712,Female,10014 CEDEX,5,$21.66M,Ecole Nationale Supérieure des Telecommunications de Paris,France
+713,Female,70374,7,n/a,"Fachhochschule Kempten, Hochschule für Technik und Wirtschaft",Germany
+714,Male,87030 CEDEX 1,6,$790.66M,Ecole des Ingénieurs de la Ville de Paris,France
+715,Male,64109 CEDEX,6,$84.17M,Université Paris-Sorbonne (Paris IV),France
+716,Male,27036 CEDEX,3,$299.85M,Université de Technologie de Belfort Montbéliard,France
+717,Male,76177 CEDEX,2,$2.57B,Institut National des Sciences Appliquées de Rennes,France
+718,Female,56209 CEDEX,10,$19.06M,"Schiller International University, Paris",France
+719,Female,75128 CEDEX 11,6,$15.62M,Institut Textile et Chimique de Lyon,France
+720,Male,36009 CEDEX,4,$3.7B,Ecole Nationale Supérieure d'Ingenieurs Electriciens de Grenoble,France
+721,Female,21304 CEDEX,6,$3.69B,Grenoble Ecole de Management,France
+722,Male,94972 CEDEX 9,7,n/a,Université d'Angers,France
+723,Male,27095 CEDEX 9,9,n/a,Ecole Nationale Supérieure Agronomique de Toulouse,France
+724,Male,59640,6,$25.92M,Ecole Supérieure de Commerce de Rouen,France
+725,Female,63804 CEDEX,3,$30.92M,Université de Caen Basse Normandie,France
+726,Female,42285,6,$556.9M,Cologne Business School,Germany
+727,Female,72100,2,$26.47B,Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires,France
+728,Female,84072 CEDEX 4,1,$698.59M,Ecole Nationale Vétérinaire de Nantes,France
+729,Male,26029 CEDEX,4,$3.27B,Ecole Nationale Supérieur de Mécaniques et des Microtechniques,France
+730,Male,84902 CEDEX 9,1,$26.36B,École Nationale Supérieure d'Ingénieurs de Constructions Aéronautiques,France
+731,Male,L-3330,2,$999.98M,International University Institute of Luxembourg,Luxembourg
+732,Male,62411 CEDEX,5,$2.88B,Université Denis Diderot (Paris VII),France
+733,Female,59865 CEDEX 9,7,n/a,Ecole des Hautes Etudes Commerciales,France
+734,Female,83087 CEDEX 9,6,$116.58M,Ecole Nationale Supérieur de Géologie de Nancy,France
+735,Female,5034,6,n/a,Hotelschool The Hague,Netherlands
+736,Male,93164 CEDEX,3,$48.88B,Université de la Méditerranée (Aix Marseille II),France
+737,Male,L-4354,5,$188.64M,International University Institute of Luxembourg,Luxembourg
+738,Male,73009 CEDEX,6,n/a,Institut des Sciences de l'Ingénieur de Clermont-Ferrand,France
+739,Male,30910 CEDEX 2,5,$85.5M,Université de Corse Pascal Paoli,France
+740,Female,41976 CEDEX 9,6,$22.92M,Université de Corse Pascal Paoli,France
+741,Male,71009 CEDEX,5,$182.92M,Ecole Nationale Supérieure des Telecommunications de Bretagne,France
+742,Female,94234 CEDEX,6,$463.93M,Institut Commercial de Nancy,France
+743,Male,67928 CEDEX 9,6,$1.4B,Ecole Supérieure de Commerce de Sophia Antipolis,France
+744,Male,72029 CEDEX 2,4,$740.26M,Ecole Nationale d'Administration,France
+745,Male,33394 CEDEX,3,$497.06M,Ecole Supérieure de Commerce de Brest,France
+746,Male,31085 CEDEX 2,6,$72.51M,Ecole Supérieure de Commerce de Rouen,France
+747,Male,86206 CEDEX,8,$72.81M,Centre National d'Etudes Agronomiques des Régions Chaudes,France
+748,Female,87077 CEDEX 9,6,$29.11M,Ecole Supérieure de Commerce de Sophia Antipolis,France
+749,Male,93285 CEDEX,7,$506.02M,Ecole Supérieure de Commerce de Marseille-Provence,France
+750,Female,13316 CEDEX 15,5,$1.92B,Ecole Nationale de l'Aviation Civile,France
+751,Female,12437,6,$16.98M,Pädagogische Hochschule Schwäbisch Gmünd,Germany
+752,Female,59100,4,$1.05B,Ecole des Hautes Etudes Commerciales,France
+753,Male,60637 CEDEX,7,$96.77M,Ecole Nationale Supérieure d'Agronomie de Rennes,France
+754,Female,60922 CEDEX 9,5,$25.92M,Université de Marne la Vallée,France
+755,Male,32010 CEDEX,5,$1.04B,Ecole Supérieure de Commerce de Clermont-Ferrand,France
+756,Female,64185 CEDEX,5,$8.51B,Ecole Supérieure d'Informatique-Electronique-Automatique,France
+757,Male,75434 CEDEX 09,4,$63.59M,Ecole Nationale Supérieure des Mines de Douai,France
+758,Male,92004 CEDEX,4,$819.54M,Centre de Formation et de Perfectionnement des Journalistes,France
+759,Male,92398 CEDEX,4,$84.27M,Centre d'Etudes Supérieures Industrielles Paris,France
+760,Male,95109 CEDEX,3,$411.46M,Université de Technologie de Compiègne,France
+761,Female,77224 CEDEX,3,$6.6B,Université Joseph Fourier (Grenoble I),France
+762,Female,64029 CEDEX 9,7,$10.97B,Ecole Nationale Superieure d'Informatique et de Mathematiques Appliquees de Grenoble,France
+763,Female,71109 CEDEX,5,$3.74B,Ecole Française d'Electronique et d'Informatique,France
+764,Female,06281 CEDEX 3,4,$11.63M,Ecole Nationale Supérieure Agronomique de Toulouse,France
+765,Female,59407 CEDEX,9,$535.95M,Ecole Nationale d'Ingénieurs des Travaux Agricoles de Clermont-Ferrand,France
+766,Female,75638 CEDEX 13,7,$2.09B,Ecole Nationale Supérieure de Chimie de Rennes,France
+767,Male,07204 CEDEX,6,$473.38M,Institut National Polytechnique de Grenoble,France
+768,Male,88009 CEDEX,5,$86.58M,Ecole Supérieure de Commerce de Brest,France
+769,Female,95234,7,$61.73M,Ecole Nationale Supérieur de Mécaniques et des Microtechniques,France
+770,Female,92404 CEDEX,1,$452.26M,Conservatoire National des Arts et Métiers,France
+771,Male,38944 CEDEX,6,$4.42B,Université Louis Pasteur (Strasbourg I),France
+772,Male,L-6562,0,$437.4M,University of Luxemburg,Luxembourg
+773,Female,38944 CEDEX,4,$8.63B,Université Michel de Montaigne (Bordeaux III ),France
+774,Female,28404 CEDEX,5,$462.71M,Université Claude Bernard (Lyon I),France
+775,Male,76194 CEDEX,6,n/a,Ecole Nationale Supérieure d'Agronomie et des Industries Alimentaires,France
+776,Female,44966 CEDEX 9,3,$25.18B,Ecole Nationale Supérieure d'Electrochimie et d'Electrométallurgie de Gernoble,France
+777,Female,35513 CEDEX,3,$117.97M,Institut Catholique de Toulouse,France
+778,Female,2014,5,$119.14M,University of Nijenrode,Netherlands
+779,Male,75485 CEDEX 10,6,$59.2M,Université Stendhal (Grenoble III),France
+780,Male,50951 CEDEX 9,3,$21.5M,Ecole Nationale Supérieure d'Agronomie de Montpellier,France
+781,Male,3319,2,$3.27B,Dutch Delta University,Netherlands
+782,Male,40225,3,$152.93M,"Fachhochschule Landshut, Hochschule für Wirtschaft - Sozialwesen - Technik",Germany
+783,Female,69469 CEDEX 06,4,n/a,Ecole Superieur d'Ingenieurs Leonard de Vinci,France
+784,Male,92169 CEDEX,9,n/a,Université Paris-Sorbonne (Paris IV),France
+785,Female,16015 CEDEX,9,$5.37B,Université Michel de Montaigne (Bordeaux III ),France
+786,Female,75171 CEDEX 19,5,$6.7M,Ecole Nationale Supérieur de Mécaniques et des Microtechniques,France
+787,Male,1804,4,$1.66B,De Haagse Hogeschool,Netherlands
+788,Female,69265 CEDEX 09,3,$614.25M,Institut Supérieure d'Electronique du Nord,France
+789,Male,44869,4,$8.36B,Hochschule Bremen,Germany
+790,Female,75139 CEDEX 03,5,$181.24M,Ecole Superieure Robert de Sorbon,France
+791,Female,91709 CEDEX,5,$420.27M,Ecole Nationale Supérieure des Arts et Industries de Strasbourg,France
+792,Female,8023,10,$1.01B,Les Roches International School of Hotel Management,Switzerland
+793,Female,88125 CEDEX,8,$4.11B,Université Rennes II - Haute-Bretagne,France
+794,Male,35605 CEDEX,6,$1.88B,Ecole Nationale Vétérinaire de Toulouse,France
+795,Female,33394 CEDEX,5,$150.22M,Ecole Nationale Supérieure de Chimie de Mulhouse,France
+796,Female,4004,11,$885.83M,Dutch Delta University,Netherlands
+797,Male,1360,11,$25.37B,Saxion Universities ,Netherlands
+798,Male,91821 CEDEX,4,$34.59M,Ecole Polytechnique Universitaire de Lille,France
+799,Female,76124 CEDEX,4,$148.35M,Ecole Supérieure de Commerce de Reims,France
+800,Male,65951 CEDEX 9,4,$217.64M,American Graduate School in Paris,France
+801,Male,14074 CEDEX 5,5,n/a,Institut Textile et Chimique de Lyon,France
+802,Male,79004 CEDEX,5,$2.62B,Ecole Supérieure de Chimie Physique Electronique de Lyon,France
+803,Female,37554 CEDEX,7,$136.12M,Ecole Supérieure de Physique et de Chimie Industrielles,France
+804,Male,6814,2,n/a,Tilburg University,Netherlands
+805,Female,64185 CEDEX,5,$2.17B,Ecole Nationale Supérieure d'Agronomie de Rennes,France
+806,Male,13540,4,$10.91M,Ecole Nationale Supérieure d'Hydraulique et de Mécanique de Grenoble,France
+807,Male,66050 CEDEX,4,$15.62B,Ecole Nationale Supérieure de Chimie de Clermont-Ferrand,France
+808,Male,92041 CEDEX,3,$896.52M,Ecole Nationale Supérieur d'Ingénieurs de Constructions Aéronautique,France
+809,Female,67311 CEDEX,4,$5.8B,Ecole Supérieure de Commerce de Rouen,France
+810,Male,87077 CEDEX 9,3,$1.63B,Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux,France
+811,Male,95234,3,$1.91B,Université Catholique de Lille,France
+812,Female,13729 CEDEX,6,$20.32B,Centre National d'Etudes Agronomiques des Régions Chaudes,France
+813,Male,34132,10,$1.91B,Fernuniversität Gesamthochschule Hagen,Germany
+814,Female,57204 CEDEX,8,$1.17B,Université Claude Bernard (Lyon I),France
+815,Male,91959 CEDEX,9,$36.17B,Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux,France
+816,Female,50404 CEDEX,4,$109.52M,Ecole de l'Air,France
+817,Female,L-8396,8,$325.51M,International University Institute of Luxembourg,Luxembourg
+818,Female,94364 CEDEX,4,n/a,Grenoble Ecole de Management,France
+819,Male,81204 CEDEX,4,$9.56B,Université de Cergy-Pontoise,France
+820,Female,84104 CEDEX,6,$12.39B,Ecole Nationale Supérieure des Telecommunications de Paris,France
+821,Female,74311 CEDEX,11,n/a,Ecole Nationale Supérieure des Industries Textiles de Mulhouse,France
+822,Female,75567 CEDEX 12,2,$61.7M,Université du Droit et de la Sante (Lille II),France
+823,Female,L-9651,8,$1.38B,University of Luxemburg,Luxembourg
+824,Female,47304 CEDEX,5,$17.69M,Ecole Nationale Supérieure de Physique de Strasbourg,France
+825,Female,91851 CEDEX,6,$9.3B,Ecole Supérieure des Sciences Commerciales d'Angers,France
+826,Female,12559,7,$17.97B,Fachhochschule Hannover,Germany
+827,Female,79309 CEDEX,6,$772.65M,Institut d'Etudes Politiques de Paris (Sciences Po),France
+828,Male,84147 CEDEX,6,$2.58B,Ecole Centrale d'Electronique - ECE,France
+829,Female,L-8295,5,$2.61B,University of Luxemburg,Luxembourg
+830,Male,50309 CEDEX,1,n/a,Ecole Supérieure de Commerce de Paris,France
+831,Male,14199,3,$370.12M,Philosophisch-Theologische Hochschule Vallendar der Gesellschaft des Katholischen Apostolates (Pallottiner),Germany
+832,Male,13409,6,$1.4B,Hochschule Magdeburg-Stendal (FH),Germany
+833,Male,75853 CEDEX 17,6,n/a,Université de Rouen - Haute Normandie,France
+834,Male,91815 CEDEX,5,$1.3B,Ecole Supérieure de Commerce de Paris,France
+835,Male,8604,5,$592.88M,Radboud University of Nijmegen,Netherlands
+836,Female,71404 CEDEX,2,$78.45M,Ecole Supérieure de Commerce de Grenoble,France
+837,Female,5009,6,$816.59M,University for Humanistics (UH),Netherlands
+838,Male,89102 CEDEX,5,$1.2B,Grenoble Ecole de Management,France
+839,Male,3764,2,$16.53B,Saxion Universities ,Netherlands
+840,Female,83092 CEDEX,7,$18.22M,Ecole Nationale Supérieure de Chimie de Montpellier,France
+841,Female,59002 CEDEX,7,$202.5M,Université Robert Schuman (Strasbourg III),France
+842,Male,02104 CEDEX,3,$14.75B,Ecole Catholique d'Arts & Metiers,France
+843,Female,92715 CEDEX,3,$842.24M,Institut Textile et Chimique de Lyon,France
+844,Male,14922 CEDEX 9,5,$271.82M,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement,France
+845,Female,17184 CEDEX,8,$15.85B,Ecole Supérieure de Commerce de Rouen,France
+846,Female,91881 CEDEX,6,$61.17M,EPF Ecole d'Ingénieurs,France
+847,Female,42505 CEDEX,5,$34.21M,Université de Toulouse,France
+848,Female,26003 CEDEX,3,$7.72B,Centre d'Etudes Supérieures Industrielles Paris,France
+849,Male,44356 CEDEX,6,$9.79B,"Université du Sud, Toulon et Var",France
+850,Female,75345 CEDEX 07,5,$180.66M,Ecole Supérieure de Commerce de Grenoble,France
+851,Male,60315 CEDEX 5,6,$10.46M,Ecole Nationale Supérieure de Chimie de Mulhouse,France
+852,Female,78304 CEDEX,5,$7.54B,Université de Rouen - Haute Normandie,France
+853,Male,41199,11,$1.53B,Theologische Fakultät Paderborn,Germany
+854,Female,11104 CEDEX,2,$66.2M,Université Panthéon-Sorbonne (Paris I),France
+855,Male,78925 CEDEX 9,2,$914.46M,Ecole Supérieure de Commerce et Management,France
+856,Male,45922 CEDEX 9,6,n/a,Université Paris Nanterre (Paris X),France
+857,Male,90009 CEDEX,6,$4.4B,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Bordeaux,France
+858,Female,78093 CEDEX 9,8,$61.25B,Ecole Polytechnique Universitaire de Lille,France
+859,Female,29102 CEDEX,3,$7.06B,Institut des Sciences de l'Ingénieur de Clermont-Ferrand,France
+860,Female,30910 CEDEX 2,5,$112.52M,Université du Maine,France
+861,Male,75128 CEDEX 11,5,$2.18B,Ecole Nationale Supérieure des Mines de St-Etienne,France
+862,Female,21061 CEDEX,8,n/a,Ecole Nationale Supérieur de Géologie de Nancy,France
+863,Male,L-3330,4,$130.02M,International University Institute of Luxembourg,Luxembourg
+864,Male,75669 CEDEX 14,3,$979.51M,Université d'Angers,France
+865,Male,42335 CEDEX,4,$4.6M,Université de Haute-Alsace,France
+866,Female,5924,7,$379.99M,Wageningen University,Netherlands
+867,Female,94019 CEDEX,8,$2.83B,Institut d'Etudes Politiques de Bordeaux,France
+868,Male,25086 CEDEX 9,10,$520.17M,Ecole Nationale Supérieure de Physique de Marseille,France
+869,Male,38096 CEDEX,4,n/a,Université de Bourgogne,France
+870,Female,13253 CEDEX 06,7,n/a,Ecole Nationale de la Statistique et de l'Administration Economique,France
+871,Female,66605 CEDEX,8,$847.52M,Ecole Supérieure de Commerce de Marseille-Provence,France
+872,Male,30034 CEDEX 1,9,$44.61M,Ecole Nationale de la Statistique et de l'Analyse de l'information,France
+873,Male,33010 CEDEX,5,$457.29M,Grenoble Ecole de Management,France
+874,Female,85109 CEDEX,3,$4.32B,Institut Supérieure d'Electronique du Nord,France
+875,Female,2274,7,$179.18M,Erasmus University Rotterdam,Netherlands
+876,Female,64145 CEDEX,3,$13.09M,Ecole Universitaire d'Ingénieurs de Lille,France
+877,Female,L-8356,6,$40.45M,International University Institute of Luxembourg,Luxembourg
+878,Female,69907 CEDEX 20,2,$835.65M,Université Paris Sud (Paris XI),France
+879,Male,10081 CEDEX,7,$60.41M,Institut Catholique de Paris,France
+880,Male,1209,4,$18.84B,University of St. Gallen,Switzerland
+881,Male,95611 CEDEX,3,$395.71M,Université des Sciences Sociales (Toulouse I),France
+882,Male,4055,6,$197.71M,Fachhochschule Pur,Switzerland
+883,Female,57751 CEDEX 9,6,$22.85B,Institut National Polytechnique de Lorraine,France
+884,Female,95324 CEDEX,3,n/a,Ecole Nationale d'Ingénieurs de Tarbes,France
+885,Male,13382 CEDEX 13,5,$1.4B,Université René Descartes (Paris V),France
+886,Female,24109,5,$650.09B,Johann Wolfgang Goethe Universität Frankfurt am Main,Germany
+887,Male,L-9674,3,$287.94M,University of Luxemburg,Luxembourg
+888,Male,13269 CEDEX 08,4,$660.3M,Ecole Nationale Supérieure de Chimie de Lille,France
+889,Male,57119 CEDEX,9,$21.66B,Institut des Sciences de l'Ingénieur de Montpellier,France
+890,Female,04990 CEDEX 9,2,n/a,Ecole Nationale Supérieure de Chimie de Rennes,France
+891,Female,09116,5,$6.19B,Fachhochschule Oldenburg/Ostfriesland/Wilhelmshaven,Germany
+892,Male,8924,5,$426.47M,Utrecht University,Netherlands
+893,Female,34087 CEDEX 4,2,$11.12M,Ecole Nationale Supérieure d'Ingénieurs en Mécanique et Energétique de Valenciennes,France
+894,Female,99089,6,$369.78M,"Fachhochschule Heilbronn, Hochschule für Technik und Wirtschaft",Germany
+895,Male,34404 CEDEX,7,$544.37M,Ecole Nationale Superieure d'Informatique et de Mathematiques Appliquees de Grenoble,France
+896,Male,06234 CEDEX,3,n/a,Université Catholique de Lille,France
+897,Female,26109 CEDEX,5,$48.54M,ENIC Telecom Lille 1,France
+898,Female,1404,5,$61.03M,Wittenborg University,Netherlands
+899,Female,11020 CEDEX,1,$79.41B,Ecole Supérieure de Commerce de Lyon,France
+900,Male,49066 CEDEX 01,6,$550.5M,Université de Rouen - Haute Normandie,France
+901,Male,75832 CEDEX 17,3,$1.68B,Ecole Supérieure de Commerce de Toulouse,France
+902,Male,94269 CEDEX,3,$157.69B,Ecole Nationale Supérieure de Chimie de Toulouse,France
+903,Male,77104 CEDEX,6,n/a,Université de Montpellier I,France
+904,Female,66845 CEDEX,6,n/a,Université Blaise Pascal (Clermont-Ferrand II),France
+905,Female,92691 CEDEX,3,n/a,Ecole Nationale Vétérinaire d'Alfort,France
+906,Female,37082 CEDEX 2,3,$8.05B,Université Paul Valéry (Montpellier III),France
+907,Male,21030 CEDEX,6,$5.05M,Université Paul Sabatier (Toulouse III),France
+908,Male,41942 CEDEX 9,7,$38.16M,Université de Versailles Saint-Quentin-en-Yvelines,France
+909,Male,92509 CEDEX,1,$13.08M,Ecole Universitaire d'Ingénieurs de Lille,France
+910,Male,34404 CEDEX,5,n/a,Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Grenoble,France
+911,Female,94129 CEDEX,5,n/a,Ecole Nationale Vétérinaire d'Alfort,France
+912,Male,77246 CEDEX,5,$678.58M,Ecole Nationale Supérieure des Arts et Industries Textiles,France
+913,Female,L-8165,2,$52.88M,University of Luxemburg,Luxembourg
+914,Female,78925 CEDEX 9,4,$1.1B,Ecole Française d'Electronique et d'Informatique,France
+915,Male,45979 CEDEX 9,2,$87854.2,Institut Supérieur d'Agriculture Lille,France
+916,Male,93335 CEDEX,11,$2.41B,Université de Haute-Alsace,France
+917,Female,29609 CEDEX 2,6,$219.92M,Ecole Supérieure de Commerce de Rouen,France
+918,Female,49066 CEDEX 01,5,n/a,Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique,France
+919,Male,75434 CEDEX 09,6,$2.71B,Ecole Nationale d'Ingénieurs de Metz,France
+920,Male,57954 CEDEX,10,$815.13M,Université Bordeaux I,France
+921,Male,75235 CEDEX 05,11,$2.73B,Ecole Nationale Supérieure de Chimie de Mulhouse,France
+922,Female,92848 CEDEX,5,$504.86M,Institut Supérieur d'Agriculture Rhone-Alpes,France
+923,Male,93126 CEDEX,3,$71.5B,Université d'Evry Val d'Essonne,France
+924,Female,7032,2,$115.2M,Universiteit Gent,Belgium
+925,Female,94009 CEDEX,3,$283.89M,Ecole Nationale Supérieure de Physique de Marseille,France
+926,Male,5924,3,$14.6B,Leiden University,Netherlands
+927,Male,91154 CEDEX,3,$267.39M,Ecole Supérieure d'Electronique de l'Ouest,France
+928,Female,50951 CEDEX 9,5,$126.72M,"Ecole Nationale Supérieure d'Electronique, d'Electrotechnique, d'Informatique et d'Hydraulique de Toulouse",France
+929,Male,75562 CEDEX 12,4,$828.17M,Ecole Nationale Supérieure des Mines de Douai,France
+930,Male,66921 CEDEX,3,$3.49B,Institut National des Sciences Appliquées de Lyon,France
+931,Male,44604 CEDEX,5,$217.64M,Ecole Nationale Supérieure de Chimie de Rennes,France
+932,Male,38554 CEDEX,4,$6.97B,Université de Montpellier II,France
+933,Female,34080,5,$179.06M,Ecole Nationale Supérieure des Industries Chimiques de Nancy,France
+934,Male,45149,6,n/a,Universität Osnabrück,Germany
+935,Female,L-8396,4,$1.41B,University of Luxemburg,Luxembourg
+936,Female,67039 CEDEX 2,4,$370.68M,Ecole Supérieure de Commerce de Grenoble,France
+937,Male,73031 CEDEX,10,$3.23M,Ecole Nationale Vétérinaire de Nantes,France
+938,Male,4819,5,$700.07M,University for Humanistics (UH),Netherlands
+939,Female,1079,2,$63.77B,Hogeschool Rotterdam,Netherlands
+940,Male,26109 CEDEX,3,$2.15B,Institut des Sciences de l'Ingénieur de Montpellier,France
+941,Male,62025 CEDEX,5,n/a,Université d'Aix-Marseille III,France
+942,Male,61015 CEDEX,6,$20.23B,Ecole Nationale Supérieure des Telecommunications de Paris,France
+943,Male,30104 CEDEX,1,$8.21B,Université de Franche-Comté,France
+944,Female,75390 CEDEX 08,6,$1.84B,Ecole Nationale Supérieure de Chimie de Rennes,France
+945,Female,79049 CEDEX 9,9,$47.14B,Université de Technologie de Belfort Montbéliard,France
+946,Male,87077 CEDEX 9,5,$2.68B,Centre d'Etudes Supérieures Industrielles Paris,France
+947,Female,93104 CEDEX,5,$990.02M,Institut Supérieur Agricole de Beauvais,France
+948,Female,86964 CEDEX,4,$651.31M,Ecole Nationale Supérieure des Telecommunications de Paris,France
+949,Male,18035 CEDEX,2,n/a,Ecole Nationale d'Ingénieurs de Saint-Etienne,France
+950,Female,76029 CEDEX,4,$143.18M,Université Sorbonne-Nouvelle (Paris III),France
+951,Male,69669 CEDEX,3,$29.19B,Université Catholique de Lyon,France
+952,Female,89204 CEDEX,8,$2.09B,Ecole Supérieure des Techniques Industrielles et des Textiles,France
+953,Female,8012,2,$84.35B,"European Graduate School, Media & Communications",Switzerland
+954,Male,06126,6,$3.79B,Hochschule für Philosophie München,Germany
+955,Female,65022 CEDEX 9,4,$11.67B,Ecole Nationale Supérieure d'Electrochimie et d'Electrométallurgie de Gernoble,France
+956,Female,2264,5,n/a,University for Humanistics (UH),Netherlands
+957,Male,06357 CEDEX 4,6,n/a,Université de Pau et des Pays de l'Adour,France
+958,Male,41004 CEDEX,4,$120.61M,Université Denis Diderot (Paris VII),France
+959,Male,73104 CEDEX,6,$347.04M,Ecole Nationale d'Ingénieurs de Saint-Etienne,France
+960,Female,78093 CEDEX 9,3,$8.39B,Université de Toulouse-le-Mirail (Toulouse II),France
+961,Female,13343 CEDEX 15,6,$540.53M,Ecole Nationale Supérieure d'Hydraulique et de Mécanique de Grenoble,France
+962,Female,63964 CEDEX 9,4,$81.49M,Ecole Supérieure d'Ingénieurs en Génie Electrique,France
+963,Male,2170,6,$220.68B,EHSAL - Europese Hogeschool Brussel,Belgium
+964,Male,35022 CEDEX 2,4,$3.51B,Ecole Superieure Robert de Sorbon,France
+965,Male,69367 CEDEX 07,8,$12.15B,Université Catholique de l' Ouest,France
+966,Male,72004 CEDEX 1,7,n/a,Ecole Centrale de Nantes,France
+967,Male,69239 CEDEX 02,1,$192.43M,Université François Rabelais de Tours,France
+968,Female,40215,5,n/a,Europäische Betriebswirtschafts-Akademie,Germany
+969,Male,38509 CEDEX,7,$34.35B,Ecole Supérieure d'Ingénieurs et de Techniciens pour l'Agriculture,France
+970,Female,28205 CEDEX,12,$585.08M,Institut Supérieure d'Electronique de Paris,France
+971,Male,1509,3,$22.37M,Hotelschool The Hague,Netherlands
+972,Male,94518 CEDEX 1,6,$6.15B,Université d'Artois,France
+973,Female,06116,4,n/a,Tierärztliche Hochschule Hannover,Germany
+974,Male,59663 CEDEX,5,$136.89M,Ecole d'Ingénieurs en Informatique pour l'Industrie,France
+975,Female,95604 CEDEX,6,$203.67M,Université d'Avignon,France
+976,Female,30112 CEDEX,3,$340.42M,Ecole Spéciale des Travaux Publics du Bâtiment et de l'Industrie,France
+977,Male,35687,4,$4.27B,Fachhochschule Braunschweig/Wolfenbüttel,Germany
+978,Female,93462 CEDEX,3,$10.64B,Institut Catholique d'Arts et Métiers Nantes,France
+979,Female,81604 CEDEX,7,$560.24M,Ecole Nationale de la Statistique et de l'Administration Economique,France
+980,Female,22304 CEDEX,6,$562.64M,Institut National des Sciences Appliquées de Toulouse,France
+981,Male,L-9780,1,$22.24M,University of Luxemburg,Luxembourg
+982,Male,08107 CEDEX,4,$305.71M,Université de Montpellier II,France
+983,Female,60309 CEDEX,2,$294.48M,Université Montesquieu (Bordeaux IV),France
+984,Female,68239,4,$1.49B,Technische Fachhochschule Berlin,Germany
+985,Female,81028 CEDEX 9,6,$315.53M,Université Denis Diderot (Paris VII),France
+986,Female,16919 CEDEX 9,4,$2.76B,Ecole Nationale d'Ingénieurs de Metz,France
+987,Female,7604,5,$45.09M,Hogeschool Antwerpen,Belgium
+988,Male,92959 CEDEX,1,$983.79M,Université Catholique de Lyon,France
+989,Female,59007 CEDEX,3,$1.17B,Université Denis Diderot (Paris VII),France
+990,Male,93737 CEDEX 9,7,$50.52M,Université de Franche-Comté,France
+991,Female,95072 CEDEX 1,1,$2.86B,Ecole Nationale Supérieure du Pétrole et des Monteurs,France
+992,Female,69519 CEDEX,7,$185.98M,Ecole Nationale des Sciences Géographiques,France
+993,Female,17014 CEDEX 1,8,$681.36M,American University of Paris,France
+994,Female,19011 CEDEX,8,$375.08M,Ecole Nationale de la Statistique et de l'Administration Economique,France
+995,Male,86054 CEDEX 9,3,$6.3B,Groupe Sup de Co Montpellier,France
+996,Male,91049 CEDEX,5,$17.75B,Institut de Recherche et d'Enseignement Supérieur aux Techniques de l'électronique,France
+997,Male,54021 CEDEX,3,$2.92B,Centre de Formation et de Perfectionnement des Journalistes,France
+998,Male,13155 CEDEX,2,$117.7M,Ecole Centrale de Nantes,France
+999,Female,7504,2,n/a,Katholieke Hogeschool Limburg,Belgium
+1000,Female,5019,7,$94.27M,NHTV Breda University of Professional Education,Netherlands
